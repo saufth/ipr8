@@ -27,9 +27,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        primary: ['var(--font-primary)']
-      },
       colors: {
         border: 'oklch(var(--border) / <alpha-value>)',
         input: 'oklch(var(--input) / <alpha-value>)',

@@ -71,7 +71,7 @@
 
 @layer utilities {
   .text-h1 {
-    @apply text-[42px] sm:text-[76px] md:text-[88px] lg:text-[101px] font-bold;
+    @apply text-[42px] sm:text-6xl md:text-7xl lg:text-8xl font-bold;
   }
 
   .text-h2 {
@@ -79,11 +79,11 @@
   }
 
   .text-h3 {
-    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
   }
 
   .text-p1 {
-    @apply text-xl sm:text-2xl lg:text-3xl sm:font-medium;
+    @apply text-lg sm:text-xl lg:text-2xl sm:font-medium;
   }
 
   .text-p2 {
@@ -91,7 +91,7 @@
   }
 
   .text-p3 {
-    @apply sm:text-lg md:text-xl font-medium;
+    @apply md:text-lg font-medium;
   }
   
   .container {

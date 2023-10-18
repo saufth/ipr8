@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 export default function RootLayout ({ children }: LayoutProps) {
   return (
     <html lang='es' suppressHydrationWarning>
-      <body className={cn(fontPrimary.variable, 'bg-muted font-primary min-h-screen antialiased !scroll-smooth')}>
+      <body className={cn(fontPrimary.className, 'bg-muted font-primary min-h-screen antialiased !scroll-smooth')}>
         <ThemeProvider attribute='class' defaultTheme='dark' forcedTheme='dark'>
           <NextUIProvider>
             <div className='z-10'>

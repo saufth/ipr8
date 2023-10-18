@@ -3,7 +3,6 @@ import { Button } from '@/components/ui/Button'
 import Image from 'next/image'
 import Link from 'next/link'
 import Video from '@/components/Video'
-import { Icons } from '@/components/Icons'
 import { type Item } from '@/types'
 
 const aboutUs = [
@@ -69,7 +68,6 @@ export default function About () {
             </div>
           </div>
         </div>
-        <Icons.Logomark className='w-32 sm:w-44 h-auto absolute left-0 right-0 mx-auto bottom-[24%] fill-white z-20 opacity-80' />
         <div className='w-full h-2xl sm:h-[836px] lg:h-4xl absolute left-0 top-0 bg-gradient-to-b from-secondary via-secondary to-transparent z-10' />
         <div className='container absolute inset-0 -z-10 top-64 sm:top-96 lg:top-[430px] roundex-3xl px overflow-hidden'>
           <Video src='/video/hero-about-us.mp4' />
