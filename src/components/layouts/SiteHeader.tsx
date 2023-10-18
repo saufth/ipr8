@@ -120,7 +120,7 @@ export default function SiteHeader () {
       >
         <div
           className={cn(
-            'w-full h-16 md:h-[92px] flex gap-x-2 justify-between items-center border bg-[#151515]/80 rounded-3xl backdrop-filter backdrop-blur-lg transition-[border,padding] duration-500 relative z-10',
+            'w-full h-16 md:h-[92px] flex gap-x-2 justify-between items-center border bg-[#151515]/80 rounded-3xl backdrop-filter backdrop-blur-lg transition-all duration-500 relative z-10',
             isOnTop && menuState === OC_STATE.closed ? 'border-transparent' : 'border-[#27272a] px'
           )}
         >
@@ -131,7 +131,7 @@ export default function SiteHeader () {
           >
             <Icons.Logomark
               className={cn(
-                'w-auto fill-white transition-[height] duration-500',
+                'w-auto fill-white transition-all duration-500',
                 isOnTop && menuState === OC_STATE.closed ? 'h-16 sm:h-20 lg:h-24' : 'h-10 sm:h-12 lg:h-14'
               )}
             />
@@ -145,7 +145,7 @@ export default function SiteHeader () {
                 <Link
                   href={navItem.href}
                   onClick={closeMenu}
-                  className='font-medium text-sm md:text-base lg:text-lg text-white hover:text-white/80 transition-colors'
+                  className='font-medium text-sm md:text-base lg:text-lg text-white hover:text-white/80 transition-all'
                 >
                   {navItem.title}
                 </Link>
