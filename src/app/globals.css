@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 19.3% 0 0;
+    --foreground: 100% 0 0;
+    --card: 100% 0 0;
+    --card-foreground: 100% 0 0;
+    --popover: 100% 0 0;
+    --popover-foreground: 100% 0 0;
+    --primary: 80.87% 0.164 95.33;
+    --primary-foreground: 0% 0 0;
+    --secondary: 19.3% 0 0;
+    --secondary-foreground: 100% 0 0;
+    --muted: 32.11% 0 0;
+    --muted-foreground: 55.19% 0.014 285.94;
+    --accent: 38.02% 0 0;
+    --accent-foreground: 21.03% 0.006 285.88;
+    --destructive: 39.59% 0.133 25.72;
+    --destructive-foreground: 0% 0 0;
+    --border: 27.41% 0.005 286.03;
+    --input: 91.97% 0.004 286.32;
+    --ring: 21.03% 0.006 285.88;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 19.3% 0 0;
+    --foreground: 100% 0 0;
+    --card: 100% 0 0;
+    --card-foreground: 100% 0 0;
+    --popover: 100% 0 0;
+    --popover-foreground: 100% 0 0;
+    --primary: 80.87% 0.164 95.33;
+    --primary-foreground: 0% 0 0;
+    --secondary: 19.3% 0 0;
+    --secondary-foreground: 100% 0 0;
+    --muted: 32.11% 0 0;
+    --muted-foreground: 55.19% 0.014 285.94;
+    --accent: 38.02% 0 0;
+    --accent-foreground: 21.03% 0.006 285.88;
+    --destructive: 39.59% 0.133 25.72;
+    --destructive-foreground: 0% 0 0;
+    --border: 27.41% 0.005 286.03;
+    --input: 91.97% 0.004 286.32;
+    --ring: 21.03% 0.006 285.88;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border text-foreground;
+  }
+
+  ::-webkit-scrollbar {
+    @apply h-3 w-3 bg-black/60;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-black;
+    -webkit-border-radius: 1ex;
+  }
+
+  ::-webkit-scrollbar-corner {
+    @apply bg-black;
+  }
+}
+
+@layer utilities {
+  .text-h1 {
+    @apply text-[42px] sm:text-[76px] md:text-[88px] lg:text-[101px] font-bold;
+  }
+
+  .text-h2 {
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-none;
+  }
+
+  .text-h3 {
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  .text-p1 {
+    @apply text-xl sm:text-2xl lg:text-3xl sm:font-medium;
+  }
+
+  .text-p2 {
+    @apply text-lg sm:text-xl lg:text-2xl font-medium;
+  }
+
+  .text-p3 {
+    @apply sm:text-lg md:text-xl font-medium;
+  }
+  
+  .container {
+    @apply max-w-9xl mx-auto;
+  }
+
+  .px {
+    @apply px-4 sm:px-6;
+  }
+
+  .py-sm {
+    @apply py-4 sm:py-6;
+  }
+
+  .py {
+    @apply py-8 sm:py-12;
+  }
+
+  .py-lg {
+    @apply py-16 sm:py-24;
+  }
+
+  .py-xl {
+    @apply py-24 sm:py-48;
+  }
+
+  .py-xl {
+    @apply py-36 sm:py-64;
+  }
+}
