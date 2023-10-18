@@ -8,7 +8,7 @@ import { siteConfig } from '@/config/site'
 
 const realEstateServices = services[3]!
 
-export default function Home () {
+export default function Mantenimiento () {
   return (
     <>
       <section className='overflow-hidden h-[125vh] relative z-10 pt-[90px] sm:pt-28 px'>
@@ -16,7 +16,7 @@ export default function Home () {
           <div className='max-w-2xl lg:max-w-3xl h-fit space-y-2'>
             <h1 className='sr-only'>{siteConfig.description}</h1>
             <h1 className='text-h1 border-b w-fit border-white dark:border-white leading-none pb-4 text-transparent bg-clip-text bg-gradient-to-t from-[#dddddd] to-white dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-t dark:from-[#dddddd] dark:to-white'>
-              {realEstateServices.title}.
+              {realEstateServices.title}
             </h1>
             <p>
               <Balancer className='text-p1 text-white'>

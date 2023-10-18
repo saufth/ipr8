@@ -75,7 +75,7 @@
   }
 
   .text-h2 {
-    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-none;
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-none;
   }
 
   .text-h3 {
@@ -87,11 +87,11 @@
   }
 
   .text-p2 {
-    @apply text-lg sm:text-xl lg:text-2xl font-medium;
+    @apply sm:text-lg lg:text-xl font-medium;
   }
 
   .text-p3 {
-    @apply md:text-lg font-medium;
+    @apply text-sm sm:text-base md:text-lg font-medium;
   }
   
   .container {

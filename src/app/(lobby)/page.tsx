@@ -16,10 +16,10 @@ export default function Home () {
             <h1 className='sr-only'>{siteConfig.description}</h1>
             <AnimatedText
               texts={[
-                'Inmobiliaria.',
-                'Desarrolladora.',
-                'Constructora.',
-                'Mantenimiento.'
+                'Inmobiliaria',
+                'Desarrolladora',
+                'Constructora',
+                'Mantenimiento'
               ]}
               className='text-h1 border-b border-white dark:border-white leading-none pb-4 text-transparent bg-clip-text bg-gradient-to-t from-[#dddddd] to-white dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-t dark:from-[#dddddd] dark:to-white'
             />
@@ -87,9 +87,9 @@ export default function Home () {
                         />
                       </div>
                     )}
-                    <div className='absolute inset-0 py-sm px bg-secondary/40 flex items-end'>
+                    <div className='absolute inset-0 py-sm px bg-secondary/50 flex items-end'>
                       <div className='space-y-4 lg:space-y-6 pt-24 md:pt-12'>
-                        <h3 className='text-h2 text-white'>
+                        <h3 className='text-h3 text-white'>
                           {item.title}
                         </h3>
                         <p>

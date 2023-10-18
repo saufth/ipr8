@@ -16,7 +16,7 @@ export default function Home () {
           <div className='max-w-2xl lg:max-w-3xl h-fit space-y-2'>
             <h1 className='sr-only'>{siteConfig.description}</h1>
             <h1 className='text-h1 border-b w-fit border-white dark:border-white leading-none pb-4 text-transparent bg-clip-text bg-gradient-to-t from-[#dddddd] to-white dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-t dark:from-[#dddddd] dark:to-white'>
-              {realEstateServices.title}.
+              {realEstateServices.title}
             </h1>
             <p>
               <Balancer className='text-p1 text-white'>
@@ -72,9 +72,9 @@ export default function Home () {
                             />
                           </div>
                         )}
-                        <div className='absolute inset-0 py-sm px bg-secondary/40 flex items-end'>
+                        <div className='absolute inset-0 py-sm px bg-secondary/50 flex items-end'>
                           <div className='space-y-4 lg:space-y-6 pt-24 md:pt-12'>
-                            <h3 className='text-h2 text-white'>
+                            <h3 className='text-h3 text-white'>
                               {item.title}
                             </h3>
                             <p>
@@ -82,13 +82,6 @@ export default function Home () {
                                 {item.description}
                               </Balancer>
                             </p>
-                            <div>
-                              <Button asChild size='lg'>
-                                <Link href='/contacto'>
-                                  Saber más
-                                </Link>
-                              </Button>
-                            </div>
                           </div>
                         </div>
                       </div>
