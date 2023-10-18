@@ -52,9 +52,7 @@ export default function Home () {
                 </h2>
                 <p>
                   <Balancer className='text-p2 text-white'>
-                    Nuestra suite integral de soluciones se adapta a cada fase de tu travesía comercial. Estudios de Mercado
-                    Profundos descifran el paisaje competitivo. Estrategias de Marketing Personalizadas transforman insights
-                    en campañas cautivadoras que resonarán con tu audiencia.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci officiis doloremque aut maiores accusamus velit fugit debitis aliquam autem placeat et ad, qui beatae corporis sunt alias id corrupti doloribus?
                   </Balancer>
                 </p>
               </div>
