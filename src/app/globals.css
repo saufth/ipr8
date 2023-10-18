@@ -71,7 +71,7 @@
 
 @layer utilities {
   .text-h1 {
-    @apply text-[40px] sm:text-6xl md:text-7xl lg:text-8xl font-bold;
+    @apply text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold;
   }
 
   .text-h2 {
