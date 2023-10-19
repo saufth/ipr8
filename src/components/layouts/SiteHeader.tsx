@@ -124,18 +124,20 @@ export default function SiteHeader () {
             isOnTop && menuState === OC_STATE.closed ? 'border-transparent' : 'border-[#27272a] px'
           )}
         >
-          <Link
-            href='/'
-            onClick={closeMenu}
-            className='hover:opacity-90'
+          <div
+            className={cn(
+              'transition-all duration-500',
+              isOnTop && menuState === OC_STATE.closed ? 'h-16 sm:h-20 lg:h-24' : 'h-10 sm:h-12 lg:h-14'
+            )}
           >
-            <Icons.Logomark
-              className={cn(
-                'w-auto fill-white transition-all duration-500',
-                isOnTop && menuState === OC_STATE.closed ? 'h-16 sm:h-20 lg:h-24' : 'h-10 sm:h-12 lg:h-14'
-              )}
-            />
-          </Link>
+            <Link
+              href='/'
+              onClick={closeMenu}
+              className='hover:opacity-90'
+            >
+              <Icons.Logomark className='w-auto h-full fill-white' />
+            </Link>
+          </div>
           <div className='pr-2 h-full flex items-center sm:hidden'>
             <ButtonMenu />
           </div>
