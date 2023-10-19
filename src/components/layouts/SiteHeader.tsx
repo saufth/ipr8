@@ -127,7 +127,7 @@ export default function SiteHeader () {
           <Link
             href='/'
             onClick={closeMenu}
-            className='hover:opacity-90 transition-all duration-500'
+            className='hover:opacity-90'
           >
             <Icons.Logomark
               className={cn(

@@ -21,7 +21,7 @@ export const AnimatedText = ({ texts, className }: AnimatedTextProps) => {
       setTimeout(() => {
         setAnimate(true)
       }, 800)
-    }, 6000)
+    }, 4000)
 
     return () => clearTimeout(timeout)
   })

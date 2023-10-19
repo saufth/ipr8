@@ -75,11 +75,11 @@
   }
 
   .text-h2 {
-    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-none;
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-none font-semibold;
   }
 
   .text-h3 {
-    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold;
   }
 
   .text-p1 {
