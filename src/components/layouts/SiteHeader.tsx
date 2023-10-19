@@ -108,7 +108,7 @@ export default function SiteHeader () {
     <motion.header
       className={cn(
         'w-full mx-auto fixed z-40 top-0 left-0 right-0 duration-500',
-        menuState === OC_STATE.open && 'bg-secondary backdrop-filter backdrop-blur-lg'
+        menuState === OC_STATE.open && 'bg-secondary/90 backdrop-filter backdrop-blur-lg'
       )}
       variants={navbarVariants}
       animate={menuState}
@@ -138,10 +138,10 @@ export default function SiteHeader () {
               <Icons.Logomark className='w-auto h-full fill-white' />
             </Link>
           </div>
-          <div className='pr-2 h-full flex items-center sm:hidden'>
+          <div className='pr-2 h-full flex items-center lg:hidden'>
             <ButtonMenu />
           </div>
-          <ul className='hidden sm:flex items-center gap-x-4 relative first:[&>li]:hidden'>
+          <ul className='hidden lg:flex items-center gap-x-4 relative first:[&>li]:hidden'>
             {siteConfig.mainNav.map((navItem, key) => (
               <li key={key}>
                 <Link
@@ -156,14 +156,14 @@ export default function SiteHeader () {
           </ul>
         </div>
         <motion.div
-          className='w-full h-full pt-48 absolute top-0 left-0'
+          className='w-full h-full absolute top-0 left-0'
           variants={navVariants}
           animate={menuState}
           initial={false}
         >
-          <div className='h-full overflow-y-auto'>
+          <div className='h-full overflow-y-auto pt-24 sm:pt-32'>
             <div className='w-11/12 py-6 md:py-9 mx-auto flex flex-col md:flex-row justify-between md:items-center gap-y-8 md:gap-y-10'>
-              <ul className='space-y-8 md:space-y-10 text-h1 leading-none text-center hover:[&>li]:text-primary w-full'>
+              <ul className='space-y-8 md:space-y-10 text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl w-fit mx-auto font-bold leading-none hover:[&>li]:text-primary first:[&>li]:hidden'>
                 {siteConfig.mainNav.map((option, key) => (
                   <li key={key}>
                     <Link

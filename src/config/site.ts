@@ -16,8 +16,20 @@ export const siteConfig = {
       href: '/'
     },
     {
-      title: 'Soluciones',
-      href: '#'
+      title: 'Inmobiliaria',
+      href: '/inmobiliaria'
+    },
+    {
+      title: 'Desarrolladora',
+      href: '/desarrolladora'
+    },
+    {
+      title: 'Constructora',
+      href: '/constructora'
+    },
+    {
+      title: 'Mantenimiento',
+      href: '/mantenimiento'
     },
     {
       title: 'Nosotros',
