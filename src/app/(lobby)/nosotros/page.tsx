@@ -171,11 +171,11 @@ export default function About () {
         <div className='container pb-4 px space-y-4'>
           <div className='relative overflow-hidden'>
             <div className='bg-secondary relative z-20 px py-lg grid place-content-center rounded-3xl'>
-              <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
+              <div className='max-w-4xl h-fit space-y-4 lg:space-y-6'>
                 <h2 className='text-h2 pb-4 text-white'>
-                  Nuestra historia
+                  Innovación y éxito en el mundo de los bienes raíces
                 </h2>
-                <Balancer className='space-y-6 text-p3'>
+                <Balancer className='space-y-6 text-p3 text-muted-foreground pt-6'>
                   <p>
                     Hace poco más de cinco años, nació una idea que revolucionará la industria de los bienes raíces: crear
                     una empresa con un enfoque claro en brindar servicios de primera categoría en el mundo de los bienes raíces.
