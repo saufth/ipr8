@@ -96,10 +96,6 @@ export const services: Category[] = [
             description: 'Trabajamos en la creación y gestión de una identidad de marca sólida para agentes, empresas o proyectos inmobiliarios. Hacemos el diseño de logotipos, la definición de valores de marca y la construcción de una reputación en el mercado.'
           },
           {
-            title: 'Planeación comercial estratégica',
-            description: 'Nos enfocamos en ofrecer estrategias tácticas para promocionar y vender propiedades de manera efectiva. Dichas estrategias tienen que ver con los precios, la negociación y las promociones. A través de esto, trabajamos en crear relaciones sólidas con nuestros clientes.'
-          },
-          {
             title: 'Proyección Financiera',
             description: 'Nos encargamos de gestionar los aspectos financieros relacionados con la inversión, la adquisición o la venta de propiedades. Abarcamos desde la evaluación de riesgos, el análisis de inversiones, la gestión de presupuestos, hasta la planificación fiscal.'
           },
@@ -138,10 +134,6 @@ export const services: Category[] = [
             description: 'Creamos espacios atractivos con áreas comunes como parques, piscinas, gimnasios y zonas de recreación que elevan la calidad del complejo habitacional.'
           },
           {
-            title: 'Estacionamiento',
-            description: 'Todas las viviendas que diseñamos cuentan con estacionamiento privado o acceso a estacionamientos comunitarios para mejorar la experiencia del cliente.'
-          },
-          {
             title: 'Seguridad',
             description: 'Nos aseguramos (desde la planeación del proyecto) de que los espacios cuenten con sistemas de seguridad como porteros eléctricos, cámaras de vigilancia y acceso controlado para brindar tranquilidad a nuestros clientes.'
           }
@@ -164,18 +156,6 @@ export const services: Category[] = [
             description: 'Para nosotros es esencial que las bodegas cuenten con iluminación adecuada y sistemas de ventilación para mantener el ambiente óptimo y un espacio apto para resguardar los productos de nuestros clientes en perfecto estado.'
           },
           {
-            title: 'Espacio industrial',
-            description: 'Somos expertos en diseñar espacios para la producción, almacenamiento o distribución de bienes, por lo que las naves industriales suelen ser amplias y versátiles.'
-          },
-          {
-            title: 'Altura de techos',
-            description: 'Todas nuestras naves industriales cuentan rigurosamente con techos altos que permiten acomodar maquinaria y estanterías, para ajustarse a las necesidades de almacenamiento de todo tipo de clientes.'
-          },
-          {
-            title: 'Acceso para camiones',
-            description: 'Construimos espacios para tener acceso tanto para camiones como para trailers y diseñamos estratégicamente muelles de carga para facilitar la logística.'
-          },
-          {
             title: 'Sistemas de energía',
             description: 'Desde la planeación inicial del proyecto industrial tomamos en cuenta los sistemas de energía trifásica (suministro eléctrico eficiente, alimentación de motores y balance de carga) y sistemas de seguridad industrial para brindar soporte a las empresas en todo momento.'
           }
@@ -190,28 +170,12 @@ export const services: Category[] = [
             description: 'Diseñamos oficinas para ser eficientes y cómodas para el trabajo, con áreas de trabajo abiertas, oficinas privadas y salas de reuniones.'
           },
           {
-            title: 'Tecnología',
-            description: 'Todos nuestros espacios cuentan con infraestructura tecnológica, como redes de alta velocidad y sistemas de comunicación.'
-          },
-          {
             title: 'Iluminación y ventilación',
             description: 'Buscamos proporcionar un ambiente de trabajo agradable con iluminación natural y sistemas de ventilación adecuados en cada lugar que creamos.'
           },
           {
             title: 'Estacionamiento',
             description: 'Trabajamos en espacios de estacionamiento para empleados y visitantes cómodos, seguros y funcionales, con áreas adaptadas estratégicamente para discapacitados y personas con necesidades especiales.'
-          },
-          {
-            title: 'Ubicación estratégica',
-            description: 'La ubicación es clave para los locales comerciales Se proyectan en zonas de alto tráfico peatonal o vehicular, por tal motivo, nos aseguramos de impulsar espacios convenientes para las necesidades específicas de cada cliente.'
-          },
-          {
-            title: 'Diseño atractivo',
-            description: 'Trabajamos en diseños visualmente agradables para atraer a los clientes y maximizar el espacio de exhibición en cada proyecto.'
-          },
-          {
-            title: 'Acceso y visibilidad',
-            description: 'La accesibilidad y visibilidad desde la calle suelen ser importantes para los locales comerciales, por eso ponemos en marcha el diseño de planos altamente funcionales y el desarrollo de los mismos en zonas comerciales de gran impacto económico.'
           },
           {
             title: 'Instalaciones específicas',
@@ -268,10 +232,6 @@ export const services: Category[] = [
           {
             title: 'Seguimiento presupuestario',
             description: 'Supervisamos el presupuesto del proyecto para asegurarnos de que los gastos se mantengan dentro de los límites establecidos. Tomamos en cuenta el control de costos, la identificación de desviaciones y la implementación de medidas correctivas cuando sea necesario.'
-          },
-          {
-            title: 'Entrega exitosa',
-            description: 'Nuestro objetivo principal al momento de realizar una supervisión estratégica de obra es garantizar que el proyecto se complete con éxito y se entregue de acuerdo con los plazos y la calidad esperados, por'
           }
         ]
       }
@@ -279,7 +239,7 @@ export const services: Category[] = [
   },
   {
     title: 'Mantenimiento',
-    description: 'Lorem ipsum dolor sit espectatum.',
+    description: 'Excelencia en Inmobiliaria, Desarrollo y Construcción: Líderes en la Gestión Integral y Mantenimiento de Propiedades.',
     slug: '/mantenimiento',
     image: '/images/solution4.jpeg',
     subcategories: [

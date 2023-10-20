@@ -7,6 +7,25 @@ import Video from '@/components/Video'
 import { services } from '@/config/services'
 import { siteConfig } from '@/config/site'
 
+const benefist = [
+  {
+    title: 'Experiencia probada en el mercado',
+    description: 'Tenemos un historial que garantiza a los clientes resultados sólidos y la capacidad de adaptarse a las dinámicas cambiantes del mercado.'
+  },
+  {
+    title: 'Expertos en construcción y gestión inmobiliaria',
+    description: 'Los clientes pueden confiar en la alta calificación y preparación de este equipo para planificar, diseñar, construir y gestionar propiedades de manera efectiva. Nuestros testimonios nos respaldan. '
+  },
+  {
+    title: 'Compromiso con la calidad y la eficiencia',
+    description: 'Nos esforzamos por superar  los estándares de calidad y, al mismo tiempo, optimizar los procesos para garantizar eficiencia en términos de tiempo y recursos.'
+  },
+  {
+    title: 'Soluciones personalizadas según sus necesidades',
+    description: 'Esta es nuestra política interna de Satisfacción absoluta, ya todo el proceso es 100% personalizado y a la medida de las necesidades de nuestros clientes.'
+  }
+]
+
 export default function Home () {
   return (
     <>
@@ -43,6 +62,49 @@ export default function Home () {
         </div>
       </section>
       <section>
+        <div className='container pt-4 px space-y-4'>
+          <div className='relative overflow-hidden'>
+            <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
+              <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
+                <h2 className='text-h2 pb-4 text-white'>
+                  Nuestros beneficios
+                </h2>
+                <p>
+                  <Balancer className='text-p2 text-white'>
+                    Nos apasiona transformar propiedades en activos exitosos. Con IPR8, no solo obtienes resultados excepcionales,
+                    sino que también obtienes un socio de confianza que comparte tu visión de éxito en el mercado inmobiliari
+                  </Balancer>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className='grid lg:grid-cols-2 gap-4'>
+            {benefist.map((item, key) => {
+              return (
+                <article className='space-y-12' key={key}>
+                  <div className='group relative aspect-[4/5] sm:aspect-[3/2] lg:aspect-[3/3] xl:aspect-[3/2] w-full h-auto rounded-3xl overflow-hidden'>
+                    <div className='absolute inset-0 py-sm px bg-primary flex items-center justify-center'>
+                      <div className='max-w-lg space-y-4 lg:space-y-6 h-fit w-fit'>
+                        <h3>
+                          <Balancer className='text-h3 text-secondary'>
+                            {item.title}
+                          </Balancer>
+                        </h3>
+                        <p>
+                          <Balancer className='text-p3 text-secondary'>
+                            {item.description}
+                          </Balancer>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+      <section>
         <div className='container py-4 px space-y-4'>
           <div className='relative overflow-hidden'>
             <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
@@ -57,16 +119,6 @@ export default function Home () {
                 </p>
               </div>
             </div>
-            {/* <div className='absolute inset-0 md:px-0'>
-              <Image
-                src='/images/solution1.webp'
-                alt='Acerca de nosotros'
-                className='object-cover transition-transform duration-300 ease-in-out group-hover:scale-105'
-                sizes='(min-width: 1024px) 20vw, (min-width: 768px) 25vw, (min-width: 640px) 33vw, (min-width: 475px) 50vw, 100vw'
-                fill
-                loading='lazy'
-              />
-            </div> */}
           </div>
           <div className='grid lg:grid-cols-2 gap-4'>
             {services.map((item, key) => {
@@ -135,49 +187,7 @@ export default function Home () {
                 </div>
               </div>
             </div>
-            {/* <div className='absolute inset-0 md:px-0'>
-              <Image
-                src='/images/solution1.webp'
-                alt='Acerca de nosotros'
-                className='object-cover transition-transform duration-300 ease-in-out group-hover:scale-105'
-                sizes='(min-width: 1024px) 20vw, (min-width: 768px) 25vw, (min-width: 640px) 33vw, (min-width: 475px) 50vw, 100vw'
-                fill
-                loading='lazy'
-              />
-            </div> */}
           </div>
-          {/* <div className='grid lg:grid-cols-2 gap-4'>
-            {organizationConfig.map((about, key) => {
-              return (
-                <article className='space-y-12' key={key}>
-                  <div className='group relative aspect-[4/5] sm:aspect-[3/2] lg:aspect-[3/3] xl:aspect-[3/2] w-full h-auto rounded-3xl overflow-hidden'>
-                    <div className='absolute inset-0 md:px-0'>
-                      <Image
-                        src={about.image}
-                        alt={about.title}
-                        className='object-cover transition-transform duration-300 ease-in-out group-hover:scale-105'
-                        sizes='(min-width: 1024px) 20vw, (min-width: 768px) 25vw, (min-width: 640px) 33vw, (min-width: 475px) 50vw, 100vw'
-                        fill
-                        loading='lazy'
-                      />
-                    </div>
-                    <div className='absolute inset-0 py-sm px bg-secondary flex items-end'>
-                      <div className='space-y-4 lg:space-y-6 pt-24 md:pt-12'>
-                        <h3 className='text-h2 text-white'>
-                          {about.title}
-                        </h3>
-                        <p>
-                          <Balancer className='text-p3 text-white'>
-                            {about.description}
-                          </Balancer>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              )
-            })}
-          </div> */}
         </div>
       </section>
     </>

@@ -2,7 +2,6 @@ import { Balancer } from 'react-wrap-balancer'
 import { Button } from '@/components/ui/Button'
 import Image from 'next/image'
 import Link from 'next/link'
-import Video from '@/components/Video'
 import { services } from '@/config/services'
 import { siteConfig } from '@/config/site'
 
@@ -11,7 +10,7 @@ const realEstateServices = services[2]!
 export default function Home () {
   return (
     <>
-      <section className='overflow-hidden h-[125vh] relative z-10 pt-[90px] sm:pt-28 px'>
+      <section className='overflow-hidden h-screen relative z-10 pt-[90px] sm:pt-28 px'>
         <div className='container sm:px flex relative z-20'>
           <div className='max-w-2xl lg:max-w-3xl h-fit space-y-2'>
             <h1 className='sr-only'>{siteConfig.description}</h1>
@@ -33,8 +32,19 @@ export default function Home () {
           </div>
         </div>
         <div className='w-full h-2xl sm:h-[836px] lg:h-4xl absolute left-0 top-0 bg-gradient-to-b from-secondary via-secondary to-transparent z-10' />
-        <div className='container absolute inset-0 -z-10 top-64 sm:top-96 lg:top-[430px] roundex-3xl px overflow-hidden'>
-          <Video src='/video/hero.mp4' />
+        <div className='container absolute inset-0 -z-10 top-64 sm:top-96 lg:top-[430px] px'>
+          <div className='relative w-full h-full rounded-3xl overflow-hidden'>
+            <div className='absolute -top-16 sm:-top-24 -left-[420px] lg:-left-64 2xl:left-0 w-7xl md:w-9xl'>
+              <Image
+                src='/images/category3-hero.webp'
+                alt='Categoría Inmobiliaria'
+                className='w-full h-auto relative'
+                width={1920}
+                height={1080}
+                priority
+              />
+            </div>
+          </div>
         </div>
       </section>
       {realEstateServices.subcategories.map((subcategory, key) => {
