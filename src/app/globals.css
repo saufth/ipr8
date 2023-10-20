@@ -71,15 +71,15 @@
 
 @layer utilities {
   .text-h1 {
-    @apply text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold;
+    @apply text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black;
   }
 
   .text-h2 {
-    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-none font-semibold;
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-none font-bold;
   }
 
   .text-h3 {
-    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold;
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold;
   }
 
   .text-p1 {

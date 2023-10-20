@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Video from '@/components/Video'
 import { type Item } from '@/types'
+import { AnimatedText } from '@/components/AnimatedText'
 
 const aboutUs = [
   {
@@ -51,12 +52,18 @@ export default function About () {
       <section className='overflow-hidden h-[125vh] relative z-10 pt-[90px] sm:pt-28 px'>
         <div className='container sm:px flex relative z-20'>
           <div className='max-w-2xl lg:max-w-3xl h-fit space-y-2'>
-            <h1 className='text-h1 border-b w-fit border-white dark:border-white leading-none pb-4 text-transparent bg-clip-text bg-gradient-to-t from-[#dddddd] to-white dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-t dark:from-[#dddddd] dark:to-white'>
-              Lorem isummm
-            </h1>
+            <h1 className='sr-only'>Innovar, construir, inspirar.</h1>
+            <AnimatedText
+              texts={[
+                'Innovar',
+                'construir',
+                'inspirar'
+              ]}
+              className='text-h1 border-b border-white dark:border-white leading-none pb-4 text-transparent bg-clip-text bg-gradient-to-t from-[#dddddd] to-white dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-t dark:from-[#dddddd] dark:to-white'
+            />
             <p>
               <Balancer className='text-p1 text-white'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. eveniet cumque nihil obcaecati officiis earum.
+                Descubre la excelencia en cada proyecto con nosotros.
               </Balancer>
             </p>
             <div className='pt-3 md:pt-8'>
@@ -83,7 +90,7 @@ export default function About () {
                 </h2>
                 <p>
                   <Balancer className='text-p2 text-white'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laborum saepe, quibusdam cumque maxime mollitia atque inventore perferendis eveniet pariatur distinctio aut veniam nisi iusto itaque, sequi expedita, sit esse!
+                    Comprometidos con ofrecer soluciones integrales para construir un futuro mejor.
                   </Balancer>
                 </p>
               </div>
@@ -133,9 +140,7 @@ export default function About () {
                 </h2>
                 <p>
                   <Balancer className='text-p2 text-white'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat asperiores atque
-                    velit, distinctio ex, veniam enim facere inventore rerum iste dolorem, magnam nemo
-                    facilis vero ratione vel repellat odio quod.
+                    En nuestra empresa, los valores son el fundamento de todo lo que hacemos.
                   </Balancer>
                 </p>
               </div>

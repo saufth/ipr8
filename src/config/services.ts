@@ -14,52 +14,52 @@ export const services: Category[] = [
           {
             title: 'Asesoramiento legal y financiero',
             description: 'Proporcionamos asesoramiento legal y financiero a través de alianzas con expertos en la materia, garantizando que las transacciones cumplan con todas las regulaciones y ofreciendo opciones de financiamiento adecuadas.',
-            image: '/images/solution1.webp'
+            image: '/images/category1-solution1.webp'
           },
           {
             title: 'Gestión de documentación',
             description: 'Nos encargamos de la gestión de toda la documentación legal y contractual relacionada con las transacciones inmobiliarias, asegurando que todo esté en orden y que se cumplan los plazos.',
-            image: '/images/solution1.webp'
+            image: '/images/category1-solution2.webp'
           },
           {
             title: 'Búsqueda personalizada de propiedades',
             description: 'Ayudamos a los compradores a encontrar propiedades que se adapten a sus necesidades específicas, ahorrando tiempo y esfuerzo en la búsqueda.',
-            image: '/images/solution1.webp'
+            image: '/images/category1-solution3.webp'
           },
           {
             title: 'Marketing profesional',
             description: 'Utilizamos estrategias de marketing efectivas para promocionar las propiedades en venta, alcanzando a un público más amplio y aumentando las posibilidades de encontrar compradores calificados.',
-            image: '/images/solution1.webp'
+            image: '/images/category1-solution4.webp'
           },
           {
             title: 'Negociación especializada',
             description: 'Actuamos como intermediarios expertos en la negociación de precios y condiciones, asegurando que los intereses de los clientes estén protegidos.',
-            image: '/images/solution1.webp'
+            image: '/images/category1-solution5.webp'
           },
           {
             title: 'Inspecciones de propiedades',
             description: 'Coordinamos y realizamos inspecciones profesionales de propiedades para identificar posibles problemas o defectos antes de concretar una compra.',
-            image: '/images/solution1.webp'
+            image: '/images/category1-solution6.webp'
           },
           {
             title: 'Análisis de inversión comercial',
             description: 'Llevamos a cabo análisis de inversión detallados para propiedades comerciales, evaluando su potencial de generación de ingresos y su capacidad para atraer inquilinos.',
-            image: '/images/solution1.webp'
+            image: '/images/category1-solution7.webp'
           },
           {
             title: 'Negociación de contratos comerciales',
             description: 'Negociamos los términos y condiciones de los contratos de alquiler o venta de propiedades comerciales. Acordamos los términos del arrendamiento, como el plazo, el alquiler y las responsabilidades del propietario e inquilino.',
-            image: '/images/solution1.webp'
+            image: '/images/category1-solution8.webp'
           },
           {
             title: 'Análisis de viabilidad de ubicación',
             description: 'Ayudamos a nuestros clientes comerciales a evaluar la viabilidad de la ubicación de una propiedad para sus negocios. Analizamos factores como la demografía local, la competencia y el flujo de tráfico para tomar decisiones informadas.',
-            image: '/images/solution1.webp'
+            image: '/images/category1-solution9.webp'
           },
           {
             title: 'Red de contactos',
             description: 'Tenemos una amplia red de contactos en la industria, incluyendo abogados, agentes hipotecarios, inspectores de viviendas y otros profesionales, la cual es útil para facilitar las transacciones y proporcionar servicios adicionales a nuestros clientes.',
-            image: '/images/solution1.webp'
+            image: '/images/category1-solution10.webp'
           }
         ]
       }
