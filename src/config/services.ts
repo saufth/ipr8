@@ -9,7 +9,7 @@ export const services: Category[] = [
     subcategories: [
       {
         title: 'Servicios inmobiliarios',
-        description: 'Lorem ipsul dolor sit amet espactatum, lorem ipsul dolor sit amet espactatum. Lorem ipsul dolor sit amet espactatum.',
+        description: 'Compra, venta, alquiler y gestión de propiedades.',
         items: [
           {
             title: 'Asesoramiento legal y financiero',
@@ -73,7 +73,7 @@ export const services: Category[] = [
     subcategories: [
       {
         title: 'Desarrollo inmobiliario',
-        description: 'Lorem ipsul dolor sit amet espactatum, lorem ipsul dolor sit amet espactatum. Lorem ipsul dolor sit amet espactatum.',
+        description: 'Planeación, diseño, financiamiento, construcción y gestión de  proyectos inmobiliarios.',
         items: [
           {
             title: 'Consultoría inmobiliaria',
@@ -185,7 +185,7 @@ export const services: Category[] = [
       },
       {
         title: 'Infraestructura',
-        description: 'Urbanismo y servicios publicos',
+        description: 'Urbanismo y servicios públicos',
         items: [
           {
             title: 'Carreteras',
@@ -239,16 +239,16 @@ export const services: Category[] = [
   },
   {
     title: 'Mantenimiento',
-    description: 'Excelencia en Inmobiliaria, Desarrollo y Construcción: Líderes en la Gestión Integral y Mantenimiento de Propiedades.',
+    description: 'Líderes en la gestión integral y mantenimiento de propiedades.',
     slug: '/mantenimiento',
     image: '/images/solution4.jpeg',
     subcategories: [
       {
         title: 'Mantenimiento industrial',
-        description: 'Lorem ipsum dolor sit  espectatum.',
+        description: 'Funcionamiento industrial óptimo y prolongado.',
         items: [
           {
-            title: 'Mantenimiento preventivo y correctivo de maquinaria y equipos industriales',
+            title: 'Mantenimiento industrial preventivo y correctivo',
             description: 'Realizamos el mantenimiento preventivo que implica la realización de inspecciones y tareas programadas de mantenimiento en maquinaria y equipos industriales para evitar fallos y garantizar su funcionamiento óptimo. También nos encargamos del mantenimiento correctivo que se realiza en respuesta a problemas o fallos inesperados, con el objetivo de reparar y restablecer la operatividad de la maquinaria.'
           },
           {
@@ -291,7 +291,7 @@ export const services: Category[] = [
       },
       {
         title: 'Mantenimiento comercial',
-        description: 'Lorem ipsum dolor sit  espectatum.',
+        description: 'Cuidado y reparación de estructuras comerciales y empresariales.',
         items: [
           {
             title: 'Mantenimiento de edificios y oficinas comerciales',
@@ -314,7 +314,7 @@ export const services: Category[] = [
             description: 'Nos enfocamos en el mantenimiento y reparación de sistemas de aire acondicionado y refrigeración utilizados en entornos comerciales para mantener una temperatura confortable y eficiente.'
           },
           {
-            title: 'Mantenimiento de ascensores y escaleras mecánicas en edificios comerciales',
+            title: 'Mantenimiento de ascensores y escaleras mecánicas',
             description: 'Damos servicio de inspección, mantenimiento y reparación de ascensores y escaleras mecánicas para asegurar su funcionamiento seguro y confiable.'
           },
           {
@@ -337,7 +337,7 @@ export const services: Category[] = [
       },
       {
         title: 'Mantenimiento residencial',
-        description: 'Lorem ipsum dolor sit  espectatum.',
+        description: 'Preservación del valor de propiedades habitacionales.',
         items: [
           {
             title: 'Reparación y mantenimiento de viviendas particulares',
@@ -352,7 +352,7 @@ export const services: Category[] = [
             description: 'Instalamos, reparamos y actualizamos sistemas eléctricos en hogares, incluyendo la instalación de enchufes, interruptores y la actualización del cableado para garantizar la seguridad y eficiencia energética.'
           },
           {
-            title: 'Mantenimiento de sistemas de calefacción, ventilación y aire acondicionado (HVAC)',
+            title: 'Mantenimiento de sistemas climatizados',
             description: 'Nuestro servicio abarca desde el mantenimiento hasta la reparación de sistemas de calefacción, ventilación y aire acondicionado, asegurando que funcionen adecuadamente para proporcionar un ambiente interior cómodo y saludable.'
           },
           {
@@ -368,7 +368,7 @@ export const services: Category[] = [
             description: 'Hacemos reparaciones generales en techos, incluyendo la reparación de goteras y daños causados por condiciones climáticas, así como la restauración de estructuras residenciales como pérgolas, terrazas, etc.'
           },
           {
-            title: 'Instalación y mantenimiento de sistemas de seguridad para el hogar',
+            title: 'Instalación y mantenimiento de sistemas de seguridad',
             description: 'Nos encargamos de la instalación y el mantenimiento de sistemas de seguridad residencial, como sistemas de alarmas, cámaras de vigilancia y sistemas de control de acceso, para proteger a los residentes y sus propiedades.'
           },
           {
