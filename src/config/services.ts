@@ -77,7 +77,7 @@ export const services: Category[] = [
         items: [
           {
             title: 'Consultoría inmobiliaria',
-            description: 'Proporcionamos asesoramiento y orientación a propietarios, inversores o empresas en el ámbito de bienes raíces. Esto incluye la evaluación de propiedades, la gestión de proyectos, la inversión inmobiliaria y otros aspectos estratégicos relacionados con el mercado inmobiliario.'
+            description: 'Proporcionamos asesoramiento y orientación en cuanto a la evaluación de propiedades, la gestión de proyectos, la inversión inmobiliaria y otros aspectos estratégicos relacionados con el mercado inmobiliario.'
           },
           {
             title: 'Estudios de mercado',
@@ -89,7 +89,7 @@ export const services: Category[] = [
           },
           {
             title: 'Marketing inmobiliario',
-            description: 'Promovemos propiedades a través de medios digitales.Creamos sitios web inmobiliarios, publicidad en redes sociales, marketing por correo electrónico, SEO (optimización de motores de búsqueda) y estrategias de contenido para atraer a compradores o inquilinos potenciales.'
+            description: 'Promovemos propiedades a través de medios digitales.Creamos sitios web inmobiliarios, publicidad en redes sociales, marketing y estrategias de contenido para atraer a compradores o inquilinos potenciales.'
           },
           {
             title: 'Branding',
@@ -100,12 +100,12 @@ export const services: Category[] = [
             description: 'Nos encargamos de gestionar los aspectos financieros relacionados con la inversión, la adquisición o la venta de propiedades. Abarcamos desde la evaluación de riesgos, el análisis de inversiones, la gestión de presupuestos, hasta la planificación fiscal.'
           },
           {
-            title: 'Gestoría especializada en materia inmobiliaria',
-            description: 'Estos servicios incluyen una amplia variedad de actividades, como la realización de trámites legales y administrativos, la asesoría en transacciones inmobiliarias, la elaboración de contratos, la gestión de documentos y permisos, la evaluación de propiedades, la resolución de problemas legales y fiscales, entre otros.'
+            title: 'Gestoría inmobiliaria',
+            description: 'Estos servicios incluyen la asesoría en transacciones inmobiliarias, la elaboración de contratos, la gestión de documentos y permisos, la resolución de problemas legales y fiscales, entre otros.'
           },
           {
-            title: 'Planeación y elaboración de planos arquitectónicos',
-            description: 'Creamos representaciones gráficas detalladas de una construcción o proyecto inmobiliario. Nuestros planos arquitectónicos incluyen información sobre la disposición de espacios, dimensiones, ubicación de puertas y ventanas, sistemas eléctricos y de fontanería, así como detalles estéticos y estructurales. Esto garantiza que un proyecto se construya de acuerdo con las especificaciones y normativas, y facilita la visualización y comprensión de la futura propiedad.'
+            title: 'Planeación y elaboración de planos',
+            description: 'Creamos representaciones gráficas detalladas de una construcción o proyecto inmobiliario. Esto garantiza que un proyecto se construya de acuerdo con las especificaciones y normativas, y facilita la visualización y comprensión de la futura propiedad.'
           }
         ]
       }
@@ -152,12 +152,12 @@ export const services: Category[] = [
             description: 'La seguridad de nuestros clientes es muy importante, por ello contamos con sistemas de seguridad, como alarmas y cámaras de vigilancia.'
           },
           {
-            title: 'Iluminación y ventilación adecuadas',
-            description: 'Para nosotros es esencial que las bodegas cuenten con iluminación adecuada y sistemas de ventilación para mantener el ambiente óptimo y un espacio apto para resguardar los productos de nuestros clientes en perfecto estado.'
+            title: 'Iluminación y ventilación',
+            description: 'Cuidamos que las bodegas cuenten con iluminación adecuada y sistemas de ventilación para mantener el ambiente óptimo apto para resguardar los productos en perfecto estado.'
           },
           {
             title: 'Sistemas de energía',
-            description: 'Desde la planeación inicial del proyecto industrial tomamos en cuenta los sistemas de energía trifásica (suministro eléctrico eficiente, alimentación de motores y balance de carga) y sistemas de seguridad industrial para brindar soporte a las empresas en todo momento.'
+            description: 'Tomamos en cuenta los sistemas de energía trifásica (suministro eléctrico eficiente, alimentación de motores y balance de carga) y sistemas de seguridad industrial para brindar soporte en todo momento.'
           }
         ]
       },
@@ -189,7 +189,7 @@ export const services: Category[] = [
         items: [
           {
             title: 'Carreteras',
-            description: 'Trabajamos desde la planificación y diseño, hasta la construcción de carreteras principales y secundarias, autopistas y vías urbanas, garantizando una red de transporte eficiente y segura para facilitar el movimiento de personas y mercancías.'
+            description: 'Trabajamos desde la planificación y diseño, hasta la construcción de carreteras principales y secundarias, autopistas y vías urbanas, garantizando una red de transporte eficiente y segura.'
           },
           {
             title: 'Puentes',
@@ -201,7 +201,7 @@ export const services: Category[] = [
           },
           {
             title: 'Redes de agua y alcantarillado',
-            description: 'Involucramos la planificación y construcción de redes de distribución de agua potable y sistemas de alcantarillado sanitario en el desarrollo de cada proyecto que ejecutamos, los cuales son sumamente necesarios para garantizar el acceso a agua limpia y el tratamiento adecuado de aguas residuales en una comunidad.'
+            description: 'Involucramos la planificación y construcción de redes de distribución de agua potable y sistemas de alcantarillado sanitario en proyecto, garantizando el acceso a agua limpia y el tratamiento adecuado de aguas residuales.'
           }
         ]
       },
@@ -211,27 +211,27 @@ export const services: Category[] = [
         items: [
           {
             title: 'Supervisión de cumplimiento',
-            description: 'Contamos con un equipo de supervisores expertos que se encargan de garantizar que el proyecto se desarrolle de acuerdo con el plan, las especificaciones técnicas y las regulaciones aplicables. Esto incluye la verificación de que se sigan los diseños y los estándares de calidad establecidos.'
+            description: 'Contamos con un equipo de supervisores expertos que se encargan de garantizar que el proyecto se desarrolle de acuerdo con el plan, las especificaciones técnicas y las regulaciones aplicables.'
           },
           {
             title: 'Gestión de equipos',
-            description: 'Supervisamos y coordinamos a los equipos de trabajo, incluyendo a los contratistas, subcontratistas y otros profesionales involucrados en el proyecto. Nos aseguramos que los recursos humanos estén correctamente asignados y que se cumplan los roles y responsabilidades de cada parte.'
+            description: ' Supervisamos y coordinamos a los equipos de trabajo, incluyendo a los contratistas, subcontratistas y otros profesionales involucrados en el proyecto cuidando siempre la correcta administración de los recursos.'
           },
           {
             title: 'Resolución de problemas',
-            description: 'Nuestros supervisores están preparados para abordar problemas y desafíos que puedan surgir durante el curso del proyecto. También nos encargamos de la gestión de cambios en el diseño, retrasos imprevistos, problemas de calidad o cualquier otro obstáculo que afecte la ejecución del proyecto.'
+            description: 'Nos encargamos de la gestión de cambios en el diseño, retrasos imprevistos, problemas de calidad o cualquier otro obstáculo que afecte la ejecución del proyecto.'
           },
           {
             title: 'Control de calidad',
-            description: 'Ponemos especial atención en los detalles para garantizar que se cumplan los estándares de calidad establecidos para el proyecto. Esto implica inspecciones regulares, pruebas y verificación de que los materiales y la mano de obra cumplan con las especificaciones técnicas.'
+            description: 'Ponemos especial atención a los detalles, esto implica inspecciones regulares, pruebas y verificación de que los materiales y la mano de obra cumplan con las especificaciones técnicas.'
           },
           {
             title: 'Coordinación integral',
-            description: 'Desempeñamos un papel fundamental en la coordinación de las diversas partes involucradas en el proyecto. Fomentamos la comunicación efectiva entre los diferentes equipos, la gestión de plazos y la sincronización de las actividades para garantizar la entrega oportuna.'
+            description: 'Fomentamos la comunicación efectiva entre los diferentes equipos, la gestión de plazos y la sincronización de las actividades para garantizar la entrega oportuna de un proyecto.'
           },
           {
             title: 'Seguimiento presupuestario',
-            description: 'Supervisamos el presupuesto del proyecto para asegurarnos de que los gastos se mantengan dentro de los límites establecidos. Tomamos en cuenta el control de costos, la identificación de desviaciones y la implementación de medidas correctivas cuando sea necesario.'
+            description: 'Supervisamos el presupuesto del proyecto para asegurarnos de que los gastos se mantengan dentro de los límites establecidos.'
           }
         ]
       }
