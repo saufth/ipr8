@@ -56,8 +56,8 @@ export default function About () {
             <AnimatedText
               texts={[
                 'Innovar',
-                'construir',
-                'inspirar'
+                'Construir',
+                'Inspirar'
               ]}
               className='text-h1 border-b border-white dark:border-white leading-none pb-4 text-transparent bg-clip-text bg-gradient-to-t from-[#dddddd] to-white dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-t dark:from-[#dddddd] dark:to-white'
             />
