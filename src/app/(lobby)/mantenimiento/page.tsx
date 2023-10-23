@@ -82,7 +82,7 @@ export default function Mantenimiento () {
                             />
                           </div>
                         )}
-                        <div className='absolute inset-0 py-sm px bg-secondary/40 flex items-end'>
+                        <div className='absolute inset-0 py-sm px bg-gradient-to-t from-secondary vias-secondary/60 to-secondary/10 flex items-end'>
                           <div className='space-y-4 lg:space-y-6 pt-24 md:pt-12'>
                             <h3 className='text-h3 text-white'>
                               {item.title}

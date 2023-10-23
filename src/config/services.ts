@@ -77,35 +77,43 @@ export const services: Category[] = [
         items: [
           {
             title: 'Consultoría inmobiliaria',
-            description: 'Proporcionamos asesoramiento y orientación en cuanto a la evaluación de propiedades, la gestión de proyectos, la inversión inmobiliaria y otros aspectos estratégicos relacionados con el mercado inmobiliario.'
+            description: 'Proporcionamos asesoramiento y orientación en cuanto a la evaluación de propiedades, la gestión de proyectos, la inversión inmobiliaria y otros aspectos estratégicos relacionados con el mercado inmobiliario.',
+            image: '/images/category2-solution1.webp'
           },
           {
             title: 'Estudios de mercado',
-            description: 'Recopilamos y analizamos datos relevantes para entender las tendencias, la demanda, la oferta y los precios en un mercado específico. Trabajamos en pro de nuestros clientes para ayudarles a tomar decisiones informadas sobre inversiones y estrategias de marketing.'
+            description: 'Recopilamos y analizamos datos relevantes para entender las tendencias, la demanda, la oferta y los precios en un mercado específico. Trabajamos en pro de nuestros clientes para ayudarles a tomar decisiones informadas sobre inversiones y estrategias de marketing.',
+            image: '/images/category2-solution2.webp'
           },
           {
             title: 'Definición del producto',
-            description: 'Determinamos las características y atributos de una propiedad o desarrollo inmobiliario. Abarcamos aspectos como: el tipo de propiedad (residencial, comercial, industrial), ubicación, tamaño, diseño y precios.'
+            description: 'Determinamos las características y atributos de una propiedad o desarrollo inmobiliario. Abarcamos aspectos como: el tipo de propiedad (residencial, comercial, industrial), ubicación, tamaño, diseño y precios.',
+            image: '/images/category2-solution3.webp'
           },
           {
             title: 'Marketing inmobiliario',
-            description: 'Promovemos propiedades a través de medios digitales.Creamos sitios web inmobiliarios, publicidad en redes sociales, marketing y estrategias de contenido para atraer a compradores o inquilinos potenciales.'
+            description: 'Promovemos propiedades a través de medios digitales.Creamos sitios web inmobiliarios, publicidad en redes sociales, marketing y estrategias de contenido para atraer a compradores o inquilinos potenciales.',
+            image: '/images/category2-solution4.webp'
           },
           {
             title: 'Branding',
-            description: 'Trabajamos en la creación y gestión de una identidad de marca sólida para agentes, empresas o proyectos inmobiliarios. Hacemos el diseño de logotipos, la definición de valores de marca y la construcción de una reputación en el mercado.'
+            description: 'Trabajamos en la creación y gestión de una identidad de marca sólida para agentes, empresas o proyectos inmobiliarios. Hacemos el diseño de logotipos, la definición de valores de marca y la construcción de una reputación en el mercado.',
+            image: '/images/category2-solution5.webp'
           },
           {
             title: 'Proyección Financiera',
-            description: 'Nos encargamos de gestionar los aspectos financieros relacionados con la inversión, la adquisición o la venta de propiedades. Abarcamos desde la evaluación de riesgos, el análisis de inversiones, la gestión de presupuestos, hasta la planificación fiscal.'
+            description: 'Nos encargamos de gestionar los aspectos financieros relacionados con la inversión, la adquisición o la venta de propiedades. Abarcamos desde la evaluación de riesgos, el análisis de inversiones, la gestión de presupuestos, hasta la planificación fiscal.',
+            image: '/images/category2-solution6.webp'
           },
           {
             title: 'Gestoría inmobiliaria',
-            description: 'Estos servicios incluyen la asesoría en transacciones inmobiliarias, la elaboración de contratos, la gestión de documentos y permisos, la resolución de problemas legales y fiscales, entre otros.'
+            description: 'Estos servicios incluyen la asesoría en transacciones inmobiliarias, la elaboración de contratos, la gestión de documentos y permisos, la resolución de problemas legales y fiscales, entre otros.',
+            image: '/images/category2-solution7.webp'
           },
           {
             title: 'Planeación y elaboración de planos',
-            description: 'Creamos representaciones gráficas detalladas de una construcción o proyecto inmobiliario. Esto garantiza que un proyecto se construya de acuerdo con las especificaciones y normativas, y facilita la visualización y comprensión de la futura propiedad.'
+            description: 'Creamos representaciones gráficas detalladas de una construcción o proyecto inmobiliario. Esto garantiza que un proyecto se construya de acuerdo con las especificaciones y normativas, y facilita la visualización y comprensión de la futura propiedad.',
+            image: '/images/category2-solution8.webp'
           }
         ]
       }
@@ -123,19 +131,23 @@ export const services: Category[] = [
         items: [
           {
             title: 'Diseño arquitectónico',
-            description: 'Construimos viviendas que cuentan con un diseño arquitectónico atractivo y funcional que incluye distribución de espacios, acabados de alta calidad y detalles estéticos.'
+            description: 'Construimos viviendas que cuentan con un diseño arquitectónico atractivo y funcional que incluye distribución de espacios, acabados de alta calidad y detalles estéticos.',
+            image: '/images/category3-solution1.webp'
           },
           {
             title: 'Instalaciones y servicios',
-            description: 'Incluimos sistemas de calefacción, fontanería, electricidad y redes de comunicación modernas en todas las viviendas que construimos.'
+            description: 'Incluimos sistemas de calefacción, fontanería, electricidad y redes de comunicación modernas en todas las viviendas que construimos.',
+            image: '/images/category3-solution2.webp'
           },
           {
             title: 'Áreas comunes',
-            description: 'Creamos espacios atractivos con áreas comunes como parques, piscinas, gimnasios y zonas de recreación que elevan la calidad del complejo habitacional.'
+            description: 'Creamos espacios atractivos con áreas comunes como parques, piscinas, gimnasios y zonas de recreación que elevan la calidad del complejo habitacional.',
+            image: '/images/category3-solution3.webp'
           },
           {
-            title: 'Seguridad',
-            description: 'Nos aseguramos (desde la planeación del proyecto) de que los espacios cuenten con sistemas de seguridad como porteros eléctricos, cámaras de vigilancia y acceso controlado para brindar tranquilidad a nuestros clientes.'
+            title: 'Seguridad residencial',
+            description: 'Nos aseguramos (desde la planeación del proyecto) de que los espacios cuenten con sistemas de seguridad como porteros eléctricos, cámaras de vigilancia y acceso controlado para brindar tranquilidad a nuestros clientes.',
+            image: '/images/category3-solution4.webp'
           }
         ]
       },
@@ -145,19 +157,23 @@ export const services: Category[] = [
         items: [
           {
             title: 'Espacio de almacenamiento',
-            description: 'Nuestras bodegas proporcionan espacio de almacenamiento seguro y versátil para mercancías, equipos o archivos.'
+            description: 'Nuestras bodegas proporcionan espacio de almacenamiento seguro y versátil para mercancías, equipos o archivos.',
+            image: '/images/category3-solution5.webp'
           },
           {
-            title: 'Seguridad',
-            description: 'La seguridad de nuestros clientes es muy importante, por ello contamos con sistemas de seguridad, como alarmas y cámaras de vigilancia.'
+            title: 'Seguridad industrial',
+            description: 'La seguridad de nuestros clientes es muy importante, por ello contamos con sistemas de seguridad, como alarmas y cámaras de vigilancia.',
+            image: '/images/category3-solution6.webp'
           },
           {
-            title: 'Iluminación y ventilación',
-            description: 'Cuidamos que las bodegas cuenten con iluminación adecuada y sistemas de ventilación para mantener el ambiente óptimo apto para resguardar los productos en perfecto estado.'
+            title: 'Iluminación y ventilación industrial',
+            description: 'Cuidamos que las bodegas cuenten con iluminación adecuada y sistemas de ventilación para mantener el ambiente óptimo apto para resguardar los productos en perfecto estado.',
+            image: '/images/category3-solution7.webp'
           },
           {
-            title: 'Sistemas de energía',
-            description: 'Tomamos en cuenta los sistemas de energía trifásica (suministro eléctrico eficiente, alimentación de motores y balance de carga) y sistemas de seguridad industrial para brindar soporte en todo momento.'
+            title: 'Sistemas industriales de energía',
+            description: 'Tomamos en cuenta los sistemas de energía trifásica (suministro eléctrico eficiente, alimentación de motores y balance de carga) y sistemas de seguridad industrial para brindar soporte en todo momento.',
+            image: '/images/category3-solution8.webp'
           }
         ]
       },
@@ -167,19 +183,23 @@ export const services: Category[] = [
         items: [
           {
             title: 'Diseño funcional',
-            description: 'Diseñamos oficinas para ser eficientes y cómodas para el trabajo, con áreas de trabajo abiertas, oficinas privadas y salas de reuniones.'
+            description: 'Diseñamos oficinas para ser eficientes y cómodas para el trabajo, con áreas de trabajo abiertas, oficinas privadas y salas de reuniones.',
+            image: '/images/category3-solution9.webp'
           },
           {
-            title: 'Iluminación y ventilación',
-            description: 'Buscamos proporcionar un ambiente de trabajo agradable con iluminación natural y sistemas de ventilación adecuados en cada lugar que creamos.'
+            title: 'Iluminación y ventilación comercial',
+            description: 'Buscamos proporcionar un ambiente de trabajo agradable con iluminación natural y sistemas de ventilación adecuados en cada lugar que creamos.',
+            image: '/images/category3-solution10.webp'
           },
           {
-            title: 'Estacionamiento',
-            description: 'Trabajamos en espacios de estacionamiento para empleados y visitantes cómodos, seguros y funcionales, con áreas adaptadas estratégicamente para discapacitados y personas con necesidades especiales.'
+            title: 'Estacionamiento comercial',
+            description: 'Trabajamos en espacios de estacionamiento para empleados y visitantes cómodos, seguros y funcionales, con áreas adaptadas estratégicamente para discapacitados y personas con necesidades especiales.',
+            image: '/images/category3-solution11.webp'
           },
           {
             title: 'Instalaciones específicas',
-            description: 'Trabajamos con clientes muy diversos. Estamos capacitados en brindar un servicio excepcional para cubrir los requerimientos de instalaciones especiales según el tipo de negocio.'
+            description: 'Trabajamos con clientes muy diversos. Estamos capacitados en brindar un servicio excepcional para cubrir los requerimientos de instalaciones especiales según el tipo de negocio.',
+            image: '/images/category3-solution12.webp'
           }
         ]
       },
@@ -189,19 +209,23 @@ export const services: Category[] = [
         items: [
           {
             title: 'Carreteras',
-            description: 'Trabajamos desde la planificación y diseño, hasta la construcción de carreteras principales y secundarias, autopistas y vías urbanas, garantizando una red de transporte eficiente y segura.'
+            description: 'Trabajamos desde la planificación y diseño, hasta la construcción de carreteras principales y secundarias, autopistas y vías urbanas, garantizando una red de transporte eficiente y segura.',
+            image: '/images/category3-solution13.webp'
           },
           {
             title: 'Puentes',
-            description: 'Nuestro servicio incluye la concepción y construcción de puentes para cruzar ríos, arroyos, cañones u otras barreras geográficas, ya que con esto mejoramos la conectividad y la accesibilidad en una región.'
+            description: 'Nuestro servicio incluye la concepción y construcción de puentes para cruzar ríos, arroyos, cañones u otras barreras geográficas, ya que con esto mejoramos la conectividad y la accesibilidad en una región.',
+            image: '/images/category3-solution14.webp'
           },
           {
             title: 'Sistemas de transporte público',
-            description: 'Construimos sistemas de transporte público como metro, trenes ligeros, autobuses y tranvías. Estos sistemas son esenciales para aliviar la congestión del tráfico y promover una movilidad más sostenible.'
+            description: 'Construimos sistemas de transporte público como metro, trenes ligeros, autobuses y tranvías. Estos sistemas son esenciales para aliviar la congestión del tráfico y promover una movilidad más sostenible.',
+            image: '/images/category3-solution15.webp'
           },
           {
             title: 'Redes de agua y alcantarillado',
-            description: 'Involucramos la planificación y construcción de redes de distribución de agua potable y sistemas de alcantarillado sanitario en proyecto, garantizando el acceso a agua limpia y el tratamiento adecuado de aguas residuales.'
+            description: 'Involucramos la planificación y construcción de redes de distribución de agua potable y sistemas de alcantarillado sanitario en proyecto, garantizando el acceso a agua limpia y el tratamiento adecuado de aguas residuales.',
+            image: '/images/category3-solution16.webp'
           }
         ]
       },
@@ -211,27 +235,33 @@ export const services: Category[] = [
         items: [
           {
             title: 'Supervisión de cumplimiento',
-            description: 'Contamos con un equipo de supervisores expertos que se encargan de garantizar que el proyecto se desarrolle de acuerdo con el plan, las especificaciones técnicas y las regulaciones aplicables.'
+            description: 'Contamos con un equipo de supervisores expertos que se encargan de garantizar que el proyecto se desarrolle de acuerdo con el plan, las especificaciones técnicas y las regulaciones aplicables.',
+            image: '/images/category3-solution17.webp'
           },
           {
             title: 'Gestión de equipos',
-            description: 'Supervisamos y coordinamos a los equipos de trabajo, incluyendo a los contratistas, subcontratistas y otros profesionales involucrados en el proyecto cuidando siempre la correcta administración de los recursos.'
+            description: 'Supervisamos y coordinamos a los equipos de trabajo, incluyendo a los contratistas, subcontratistas y otros profesionales involucrados en el proyecto cuidando siempre la correcta administración de los recursos.',
+            image: '/images/category3-solution18.webp'
           },
           {
             title: 'Resolución de problemas',
-            description: 'Nos encargamos de la gestión de cambios en el diseño, retrasos imprevistos, problemas de calidad o cualquier otro obstáculo que afecte la ejecución del proyecto.'
+            description: 'Nos encargamos de la gestión de cambios en el diseño, retrasos imprevistos, problemas de calidad o cualquier otro obstáculo que afecte la ejecución del proyecto.',
+            image: '/images/category3-solution19.webp'
           },
           {
             title: 'Control de calidad',
-            description: 'Ponemos especial atención a los detalles, esto implica inspecciones regulares, pruebas y verificación de que los materiales y la mano de obra cumplan con las especificaciones técnicas.'
+            description: 'Ponemos especial atención a los detalles, esto implica inspecciones regulares, pruebas y verificación de que los materiales y la mano de obra cumplan con las especificaciones técnicas.',
+            image: '/images/category3-solution20.webp'
           },
           {
             title: 'Coordinación integral',
-            description: 'Fomentamos la comunicación efectiva entre los diferentes equipos, la gestión de plazos y la sincronización de las actividades para garantizar la entrega oportuna de un proyecto.'
+            description: 'Fomentamos la comunicación efectiva entre los diferentes equipos, la gestión de plazos y la sincronización de las actividades para garantizar la entrega oportuna de un proyecto.',
+            image: '/images/category3-solution21.webp'
           },
           {
             title: 'Seguimiento presupuestario',
-            description: 'Supervisamos el presupuesto del proyecto para asegurarnos de que los gastos se mantengan dentro de los límites establecidos.'
+            description: 'Supervisamos el presupuesto del proyecto para asegurarnos de que los gastos se mantengan dentro de los límites establecidos.',
+            image: '/images/category3-solution22.webp'
           }
         ]
       }

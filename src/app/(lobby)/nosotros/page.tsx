@@ -86,7 +86,7 @@ export default function About () {
             <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
               <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
                 <h2 className='text-h2 pb-4 text-white'>
-                  Acerca de nosotros
+                  Nuestra filosofía
                 </h2>
                 <p>
                   <Balancer className='text-p2 text-white'>
@@ -136,7 +136,7 @@ export default function About () {
             <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
               <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
                 <h2 className='text-h2 pb-4 text-white'>
-                  Nuestros valores
+                  Nuestros principios
                 </h2>
                 <p>
                   <Balancer className='text-p2 text-white'>
@@ -178,7 +178,9 @@ export default function About () {
             <div className='bg-secondary relative z-20 px py-lg grid place-content-center rounded-3xl'>
               <div className='max-w-4xl h-fit space-y-4 lg:space-y-6'>
                 <h2 className='text-h2 pb-4 text-white'>
-                  Innovación y éxito en el mundo de los bienes raíces
+                  <Balancer>
+                    Innovación y éxito en el mundo de los bienes raíces
+                  </Balancer>
                 </h2>
                 <Balancer className='space-y-6 text-p3 text-muted-foreground pt-6'>
                   <p>
