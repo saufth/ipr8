@@ -1,9 +1,9 @@
 'use client'
 import { Button } from '@/components/ui/Button'
 import { Input } from '@/components/ui/Input'
+import { Textarea } from '@/components/ui/TextArea'
 import { useRef, FormEvent, useState } from 'react'
 import ReCAPTCHA from 'react-google-recaptcha'
-import { Textarea } from '../ui/TextArea'
 
 export interface MailerData {
   name: string
@@ -62,13 +62,13 @@ export default function ContactForm () {
   return (
     <>
       <form
-        className='space-y-4'
+        className='space-y-6'
         onSubmit={sendEmail}
         ref={formRef}
       >
-        <Input type='text' label='Nombre' min={6} max={128} required color='secondary' />
-        <Input type='email' label='Correo electrónico' min={8} max={128} required color='secondary' />
-        <Textarea placeholder='Cuéntanos acerca de tu proyecto' min={6} max={512} required color='secondary' />
+        <Input type='text' placeholder='Nombre' minLength={6} maxLength={128} required color='secondary' />
+        <Input type='email' placeholder='Correo electrónico' minLength={8} maxLength={128} required color='secondary' />
+        <Textarea placeholder='Cuéntanos acerca de tu proyecto' minLength={6} maxLength={512} required color='secondary' />
         <div className='flex justify-center' />
         <div className='flex flex-col items-center gap-y-8'>
           <div className='max-w-fit'>
@@ -80,7 +80,6 @@ export default function ContactForm () {
           <Button
             size='full'
             type='submit'
-            variant='secondary'
             disabled={isSendButtonDisabled}
           >
             {!recaptchaRef.current?.getValue() ? 'Enviar' : 'Enviando..'}

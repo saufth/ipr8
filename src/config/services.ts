@@ -5,7 +5,7 @@ export const services: Category[] = [
     title: 'Inmobiliaria',
     description: 'A través de nuestros servicios brindamos a nuestros clientes seguridad y respaldo a lo largo de todo el proceso inmobiliario, creando una relación de confianza con la empresa.',
     slug: '/inmobiliaria',
-    image: '/images/solution1.webp',
+    image: '/images/category1.webp',
     subcategories: [
       {
         title: 'Servicios inmobiliarios',
@@ -69,7 +69,7 @@ export const services: Category[] = [
     title: 'Desarrolladora',
     description: 'La combinación de los siguientes servicios ayuda a maximizar el valor de las propiedades y optimizar las estrategias de comercialización en un mercado altamente competitivo.',
     slug: '/desarrolladora',
-    image: '/images/solution2.jpeg',
+    image: '/images/category2.jpeg',
     subcategories: [
       {
         title: 'Desarrollo inmobiliario',
@@ -123,7 +123,7 @@ export const services: Category[] = [
     title: 'Constructora',
     description: 'En el mundo de la construcción, la diversidad de proyectos es tan amplia como las necesidades de las personas y las empresas, por eso orientamos nuestro esfuerzo en ofrecer estos servicios.',
     slug: '/constructora',
-    image: '/images/solution3.jpeg',
+    image: '/images/category3.jpeg',
     subcategories: [
       {
         title: 'Construcciones residenciales',
@@ -271,7 +271,7 @@ export const services: Category[] = [
     title: 'Mantenimiento',
     description: 'Líderes en la gestión integral y mantenimiento de propiedades.',
     slug: '/mantenimiento',
-    image: '/images/solution4.jpeg',
+    image: '/images/category4.jpeg',
     subcategories: [
       {
         title: 'Mantenimiento industrial',
@@ -279,43 +279,53 @@ export const services: Category[] = [
         items: [
           {
             title: 'Mantenimiento preventivo y correctivo',
-            description: 'Realizamos el mantenimiento preventivo y correctivo que implica la realización de inspecciones y tareas programadas de mantenimiento en maquinaria y equipos industriales para garantizar su funcionamiento óptimo.'
+            description: 'Realizamos el mantenimiento preventivo y correctivo que implica la realización de inspecciones y tareas programadas de mantenimiento en maquinaria y equipos industriales para garantizar su funcionamiento óptimo.',
+            image: '/images/category4-solution1.webp'
           },
           {
             title: 'Sistemas de automatización y control',
-            description: 'Revisamos y ajustamos sistemas automatizados que controlan procesos industriales, como PLC y sistemas SCADA para garantizar su funcionamiento adecuado.'
+            description: 'Revisamos y ajustamos sistemas automatizados que controlan procesos industriales, como PLC y sistemas SCADA para garantizar su funcionamiento adecuado.',
+            image: '/images/category4-solution2.webp'
           },
           {
             title: 'Soldadura y reparaciones metálicas',
-            description: 'Soldamos y reparamos estructuras metálicas en instalaciones industriales para mantener la integridad estructural de edificios, soportes, plataformas y otras estructuras.'
+            description: 'Soldamos y reparamos estructuras metálicas en instalaciones industriales para mantener la integridad estructural de edificios, soportes, plataformas y otras estructuras.',
+            image: '/images/category4-solution3.webp'
           },
           {
             title: 'Gestión de residuos y desechos',
-            description: 'Operamos desde la recolección, almacenamiento y transporte, hasta la disposición de residuos y desechos industriales, cumpliendo con todas las regulaciones ambientales.'
+            description: 'Operamos desde la recolección, almacenamiento y transporte, hasta la disposición de residuos y desechos industriales, cumpliendo con todas las regulaciones ambientales.',
+            image: '/images/category4-solution4.webp'
           },
           {
             title: 'Instalaciones eléctricas de alta tensión',
-            description: 'Nos enfocamos en el mantenimiento de sistemas eléctricos de alta tensión, como subestaciones eléctricas y equipos asociados, para garantizar un suministro eléctrico seguro y confiable en la planta.'
+            description: 'Nos enfocamos en el mantenimiento de sistemas eléctricos de alta tensión, como subestaciones eléctricas y equipos asociados, para garantizar un suministro eléctrico seguro y confiable en la planta.',
+            image: '/images/category4-solution5.webp'
           },
           {
             title: 'Sistemas de generación de energía',
-            description: 'Le damos mantenimiento a generadores eléctricos, turbinas, sistemas de cogeneración u otras fuentes de generación de energía utilizadas en la industria.'
+            description: 'Le damos mantenimiento a generadores eléctricos, turbinas, sistemas de cogeneración u otras fuentes de generación de energía utilizadas en la industria.',
+            image: '/images/category4-solution6.webp'
           },
           {
             title: 'Calibración y ensayo de equipos de medición',
-            description: 'Calibramos y verificamos periódicamente los equipos de medición utilizados en la industria, como medidores de flujo, balanzas, instrumentos de análisis químico, etc.'
+            description: 'Calibramos y verificamos periódicamente los equipos de medición utilizados en la industria, como medidores de flujo, balanzas, instrumentos de análisis químico, etc.',
+            image: '/images/category4-solution7.webp'
           },
           {
             title: 'Control de calidad industrial',
-            description: 'Nos aseguramos de que los productos cumplan con altos estándares de calidad, especificaciones y normativas del sector industrial.'
+            description: 'Nos aseguramos de que los productos cumplan con altos estándares de calidad, especificaciones y normativas del sector industrial.',
+            image: '/images/category4-solution8.webp'
           },
           {
             title: 'Plantas de producción y líneas de ensamblaje',
-            description: 'Nos encargamos de supervisar y dar mantenimiento a toda la infraestructura de producción, incluyendo maquinaria, sistemas de transporte y logística, para garantizar una producción eficiente.'
+            description: 'Nos encargamos de supervisar y dar mantenimiento a toda la infraestructura de producción, incluyendo maquinaria, sistemas de transporte y logística, para garantizar una producción eficiente.',
+            image: '/images/category4-solution9.webp'
           },
           {
             title: 'Sistemas de refrigeración industrial',
-            description: 'Damos soporte a sistemas de enfriamiento por compresión, evaporativos o de ciclo de absorción, para mantener temperaturas adecuadas en procesos industriales y equipos.'
+            description: 'Damos soporte a sistemas de enfriamiento por compresión, evaporativos o de ciclo de absorción, para mantener temperaturas adecuadas en procesos industriales y equipos.',
+            image: '/images/category4-solution10.webp'
           }
         ]
       },
@@ -325,43 +335,53 @@ export const services: Category[] = [
         items: [
           {
             title: 'Edificios y oficinas comerciales',
-            description: 'Nos encargamos de dar mantenimiento general a edificios y oficinas comerciales, incluyendo tareas como reparaciones de estructuras, fontanería, electricidad, pintura, y otros trabajos necesarios para mantener en buen estado las instalaciones.'
+            description: 'Nos encargamos de dar mantenimiento general a edificios y oficinas comerciales, incluyendo tareas como reparaciones de estructuras, fontanería, electricidad, pintura, y otros trabajos necesarios para mantener en buen estado las instalaciones.',
+            image: '/images/category4-solution11.webp'
           },
           {
             title: 'Áreas comunes en centros comerciales',
-            description: 'Llevamos a cabo la limpieza y mantenimiento de áreas compartidas en centros comerciales, como pasillos, baños públicos, áreas de descanso y estacionamientos, para asegurar un espacio agradable para los visitantes.'
+            description: 'Llevamos a cabo la limpieza y mantenimiento de áreas compartidas en centros comerciales, como pasillos, baños públicos, áreas de descanso y estacionamientos, para asegurar un espacio agradable para los visitantes.',
+            image: '/images/category4-solution12.webp'
           },
           {
             title: 'Servicios de seguridad',
-            description: 'Hacemos servicio de instalación y mantenimiento de sistemas de seguridad, como cámaras de vigilancia, sistemas de alarma y control de acceso, para proteger las propiedades comerciales y sus activos.'
+            description: 'Hacemos servicio de instalación y mantenimiento de sistemas de seguridad, como cámaras de vigilancia, sistemas de alarma y control de acceso, para proteger las propiedades comerciales y sus activos.',
+            image: '/images/category4-solution13.webp'
           },
           {
             title: 'Sistemas de iluminación y cableado eléctrico',
-            description: 'Nos encargamos del mantenimiento de sistemas de iluminación en edificios comerciales, así como la inspección y reparación de cableado eléctrico para garantizar la seguridad y eficiencia energética.'
+            description: 'Nos encargamos del mantenimiento de sistemas de iluminación en edificios comerciales, así como la inspección y reparación de cableado eléctrico para garantizar la seguridad y eficiencia energética.',
+            image: '/images/category4-solution14.webp'
           },
           {
             title: 'Sistemas de climatización y refrigeración',
-            description: 'Nos enfocamos en el mantenimiento y reparación de sistemas de aire acondicionado y refrigeración utilizados en entornos comerciales para mantener una temperatura confortable y eficiente.'
+            description: 'Nos enfocamos en el mantenimiento y reparación de sistemas de aire acondicionado y refrigeración utilizados en entornos comerciales para mantener una temperatura confortable y eficiente.',
+            image: '/images/category4-solution1.webp'
           },
           {
             title: 'Ascensores y escaleras mecánicas',
-            description: 'Damos servicio de inspección, mantenimiento y reparación de ascensores y escaleras mecánicas para asegurar su funcionamiento seguro y confiable.'
+            description: 'Damos servicio de inspección, mantenimiento y reparación de ascensores y escaleras mecánicas para asegurar su funcionamiento seguro y confiable.',
+            image: '/images/category4-solution16.webp'
           },
           {
             title: 'Pintura y renovación de espacios comerciales',
-            description: 'Trabajamos en la renovación de interiores y exteriores de locales comerciales a través de trabajos de pintura y acabados para lograr un aspecto atractivo y cuidado.'
+            description: 'Trabajamos en la renovación de interiores y exteriores de locales comerciales a través de trabajos de pintura y acabados para lograr un aspecto atractivo y cuidado.',
+            image: '/images/category4-solution17.webp'
           },
           {
             title: 'Sistemas de extinción de incendios',
-            description: 'Inspeccionamos y nos encargamos de dar mantenimiento a los sistemas de extinción de incendios, para asegurar que el local comercial tenga la preparación necesaria al momento de enfrentar situaciones de riesgo o de emergencia.'
+            description: 'Inspeccionamos y nos encargamos de dar mantenimiento a los sistemas de extinción de incendios, para asegurar que el local comercial tenga la preparación necesaria al momento de enfrentar situaciones de riesgo o de emergencia.',
+            image: '/images/category4-solution1.webp'
           },
           {
             title: 'Residuos y reciclaje',
-            description: 'Nos encargamos de la recolección, separación y disposición adecuada de residuos sólidos y la implementación de programas de reciclaje en instalaciones comerciales.'
+            description: 'Nos encargamos de la recolección, separación y disposición adecuada de residuos sólidos y la implementación de programas de reciclaje en instalaciones comerciales.',
+            image: '/images/category4-solution1.webp'
           },
           {
             title: 'Sistemas de punto de venta (POS)',
-            description: 'Llevamos a cabo la instalación y el soporte de sistemas de punto de venta, que incluyen hardware y software, utilizados en tiendas y negocios para gestionar las transacciones y el inventario.'
+            description: 'Llevamos a cabo la instalación y el soporte de sistemas de punto de venta, que incluyen hardware y software, utilizados en tiendas y negocios para gestionar las transacciones y el inventario.',
+            image: '/images/category4-solution2.webp'
           }
         ]
       },
@@ -371,51 +391,63 @@ export const services: Category[] = [
         items: [
           {
             title: 'Reparación y mantenimiento de viviendas',
-            description: 'Damos solución a problemas diversos, desde reparaciones menores hasta renovaciones más significativas para mantener las viviendas en perfecto estado.'
+            description: 'Damos solución a problemas diversos, desde reparaciones menores hasta renovaciones más significativas para mantener las viviendas en perfecto estado.',
+            image: '/images/category4-solution2.webp'
           },
           {
             title: 'Servicio de fontanería',
-            description: 'Reparamos y damos mantenimiento a sistemas de fontanería, incluyendo la solución de fugas, la instalación de tuberías y grifos, así como la eliminación de atascos en tuberías y desagües.'
+            description: 'Reparamos y damos mantenimiento a sistemas de fontanería, incluyendo la solución de fugas, la instalación de tuberías y grifos, así como la eliminación de atascos en tuberías y desagües.',
+            image: '/images/category4-solution2.webp'
           },
           {
             title: 'Electricidad residencial',
-            description: 'Instalamos, reparamos y actualizamos sistemas eléctricos en hogares, incluyendo la instalación de enchufes, interruptores y la actualización del cableado para garantizar la seguridad y eficiencia energética.'
+            description: 'Instalamos, reparamos y actualizamos sistemas eléctricos en hogares, incluyendo la instalación de enchufes, interruptores y la actualización del cableado para garantizar la seguridad y eficiencia energética.',
+            image: '/images/category4-solution2.webp'
           },
           {
             title: 'Sistemas climatizados',
-            description: 'Nuestro servicio abarca desde el mantenimiento hasta la reparación de sistemas de calefacción, ventilación y aire acondicionado,para proporcionar un ambiente interior cómodo y saludable.'
+            description: 'Nuestro servicio abarca desde el mantenimiento hasta la reparación de sistemas de calefacción, ventilación y aire acondicionado,para proporcionar un ambiente interior cómodo y saludable.',
+            image: '/images/category4-solution2.webp'
           },
           {
-            title: 'Jardinería de áreas verdes',
-            description: 'Ponemos especial atención a los detalles de jardines y áreas verdes en el exterior de las propiedades, incluyendo el corte de césped, poda de arbustos, plantación de flores y el mantenimiento de paisajes.'
+            title: 'Servicio de limpieza',
+            description: 'Llevamos a cabo tanto la limpieza regular, como la limpieza profunda de viviendas, abarcando suelos, ventanas, baños, cocinas y otras áreas para mantener un entorno limpio.',
+            image: '/images/category4-solution2.webp'
           },
           {
             title: 'Jardinería y mantenimiento de áreas verdes',
-            description: 'Ponemos especial atención a los detalles de jardines y áreas verdes en el exterior de las propiedades, incluyendo el corte de césped, poda de arbustos, plantación de flores y el mantenimiento de paisajes. Somos expertos en transformar espacios simples en lugares inspiradores.'
+            description: 'Ponemos especial atención a los detalles de jardines y áreas verdes en el exterior de las propiedades, incluyendo el corte de césped, poda de arbustos, plantación de flores y el mantenimiento de paisajes. Somos expertos en transformar espacios simples en lugares inspiradores.',
+            image: '/images/category4-solution2.webp'
           },
           {
             title: 'Reparación de techos y estructuras residenciales',
-            description: 'Hacemos reparaciones generales en techos, incluyendo la reparación de goteras y daños causados por condiciones climáticas, así como la restauración de estructuras residenciales como pérgolas, terrazas, etc.'
+            description: 'Hacemos reparaciones generales en techos, incluyendo la reparación de goteras y daños causados por condiciones climáticas, así como la restauración de estructuras residenciales como pérgolas, terrazas, etc.',
+            image: '/images/category4-solution2.webp'
           },
           {
-            title: 'Sistemas de seguridad',
-            description: 'Nos encargamos de la instalación y el mantenimiento de alarmas, cámaras de vigilancia y sistemas de control de acceso,  para proteger a los residentes y sus propiedades.'
+            title: 'Sistemas de seguridad recidencial',
+            description: 'Nos encargamos de la instalación y el mantenimiento de alarmas, cámaras de vigilancia y sistemas de control de acceso,  para proteger a los residentes y sus propiedades.',
+            image: '/images/category4-solution2.webp'
           },
           {
-            title: 'Servicios de pintura',
-            description: 'Este servicio abarca la pintura de interiores y exteriores de la vivienda, así como la aplicación de acabados decorativos para mejorar la apariencia y proteger las superficies.'
+            title: 'Servicios de pintura residencial',
+            description: 'Este servicio abarca la pintura de interiores y exteriores de la vivienda, así como la aplicación de acabados decorativos para mejorar la apariencia y proteger las superficies.',
+            image: '/images/category4-solution2.webp'
           },
           {
             title: 'Remodelación y renovación de viviendas',
-            description: 'Realizamos proyectos de remodelación y renovación en viviendas para mejorar su funcionalidad, estética y valor, incluyendo la ampliación de espacios, renovación de cocinas, baños y más.'
+            description: 'Realizamos proyectos de remodelación y renovación en viviendas para mejorar su funcionalidad, estética y valor, incluyendo la ampliación de espacios, renovación de cocinas, baños y más.',
+            image: '/images/category4-solution2.webp'
           },
           {
             title: 'Servicios de cancelería',
-            description: 'Nos encargamos de la fabricación, instalación, mantenimiento o reparación de cerramientos de aluminio, vidrio, o PVC. Nuestros productos incluyen ventanas, puertas, mamparas, entre otros.'
+            description: 'Nos encargamos de la fabricación, instalación, mantenimiento o reparación de cerramientos de aluminio, vidrio, o PVC. Nuestros productos incluyen ventanas, puertas, mamparas, entre otros.',
+            image: '/images/category4-solution2.webp'
           },
           {
             title: 'Servicios de herrería',
-            description: 'Nos enfocamos en el diseño, fabricación, instalación y mantenimiento de estructuras y objetos de metal. Trabajamos con diversos metales, incluyendo el acero, hierro, aluminio, entre otros, para crear elementos funcionales y decorativos.'
+            description: 'Nos enfocamos en el diseño, fabricación, instalación y mantenimiento de estructuras y objetos de metal. Trabajamos con diversos metales, incluyendo el acero, hierro, aluminio, entre otros, para crear elementos funcionales y decorativos.',
+            image: '/images/category4-solution2.webp'
           }
         ]
       }

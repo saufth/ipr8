@@ -54,7 +54,7 @@ export default function Home () {
               <div className='relative overflow-hidden'>
                 <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
                   <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
-                    <h2 className='text-h2 pb-4 text-white'>
+                    <h2 className='text-h2 pb-4 text-primary'>
                       {subcategory.title}
                     </h2>
                     <p>

@@ -120,8 +120,8 @@ export default function SiteHeader () {
       >
         <div
           className={cn(
-            'w-full h-16 md:h-[92px] flex gap-x-2 justify-between items-center border bg-[#151515]/80 rounded-3xl backdrop-filter backdrop-blur-lg transition-all duration-500 relative z-10',
-            isOnTop && menuState === OC_STATE.closed ? 'border-transparent' : 'border-[#27272a] px'
+            'w-full h-16 md:h-[92px] flex gap-x-2 justify-between items-center border rounded-3xl backdrop-filter backdrop-blur-lg transition-all duration-500 relative z-10',
+            isOnTop && menuState === OC_STATE.closed ? 'border-transparent' : 'border-[#27272a] px bg-[#151515]/80'
           )}
         >
           <div

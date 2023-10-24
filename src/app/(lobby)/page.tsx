@@ -6,25 +6,7 @@ import Link from 'next/link'
 import Video from '@/components/Video'
 import { services } from '@/config/services'
 import { siteConfig } from '@/config/site'
-
-const benefist = [
-  {
-    title: 'Experiencia probada en el mercado',
-    description: 'Tenemos un historial que garantiza a los clientes resultados sólidos y la capacidad de adaptarse a las dinámicas cambiantes del mercado.'
-  },
-  {
-    title: 'Expertos en construcción y gestión inmobiliaria',
-    description: 'Los clientes pueden confiar en la alta calificación y preparación de este equipo para planificar, diseñar, construir y gestionar propiedades de manera efectiva. Nuestros testimonios nos respaldan. '
-  },
-  {
-    title: 'Compromiso con la calidad y la eficiencia',
-    description: 'Nos esforzamos por superar  los estándares de calidad y, al mismo tiempo, optimizar los procesos para garantizar eficiencia en términos de tiempo y recursos.'
-  },
-  {
-    title: 'Soluciones personalizadas según sus necesidades',
-    description: 'Esta es nuestra política interna de Satisfacción absoluta, ya todo el proceso es 100% personalizado y a la medida de las necesidades de nuestros clientes.'
-  }
-]
+import { benefist } from '@/config/organization'
 
 export default function Home () {
   return (
@@ -66,7 +48,7 @@ export default function Home () {
           <div className='relative overflow-hidden'>
             <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
               <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
-                <h2 className='text-h2 pb-4 text-white'>
+                <h2 className='text-h2 pb-4 text-primary'>
                   Nuestros beneficios
                 </h2>
                 <p>
@@ -83,15 +65,15 @@ export default function Home () {
               return (
                 <article className='space-y-12' key={key}>
                   <div className='group relative aspect-[4/5] sm:aspect-[3/2] lg:aspect-[3/3] xl:aspect-[3/2] w-full h-auto rounded-3xl overflow-hidden'>
-                    <div className='absolute inset-0 py-sm px bg-primary flex items-center justify-center'>
+                    <div className='absolute inset-0 py-sm px  bg-gradient-to-t from-secondary vias-secondary/60 to-secondary/10 flex items-center justify-center'>
                       <div className='max-w-lg space-y-4 lg:space-y-6 h-fit w-fit'>
                         <h3>
-                          <Balancer className='text-h3 text-secondary'>
+                          <Balancer className='text-h3 text-white'>
                             {item.title}
                           </Balancer>
                         </h3>
                         <p>
-                          <Balancer className='text-p3 text-secondary'>
+                          <Balancer className='text-p3 text-white'>
                             {item.description}
                           </Balancer>
                         </p>
@@ -109,7 +91,7 @@ export default function Home () {
           <div className='relative overflow-hidden'>
             <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
               <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
-                <h2 className='text-h2 pb-4 text-white'>
+                <h2 className='text-h2 pb-4 text-primary'>
                   Nuestras soluciones
                 </h2>
                 <p>
@@ -170,7 +152,7 @@ export default function Home () {
           <div className='relative overflow-hidden'>
             <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
               <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
-                <h2 className='text-h2 pb-4 text-white'>
+                <h2 className='text-h2 pb-4 text-primary'>
                   Acerca de nosotros
                 </h2>
                 <p>

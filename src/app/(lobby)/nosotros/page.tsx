@@ -3,48 +3,8 @@ import { Button } from '@/components/ui/Button'
 import Image from 'next/image'
 import Link from 'next/link'
 import Video from '@/components/Video'
-import { type Item } from '@/types'
 import { AnimatedText } from '@/components/AnimatedText'
-
-const aboutUs = [
-  {
-    title: 'Nuestra misión',
-    description: 'Ofrecer inmuebles, terrenos y propiedades que se acoplen a tus necesidades, proyectos innovadores y servicios de mantenimiento confiables, centrados en la satisfacción del cliente y el cumplimiento de los más altos estándares éticos y de calidad.',
-    image: '/images/solution4.jpeg'
-  },
-  {
-    title: 'Nuestra visión',
-    description: 'Aspiramos a crear comunidades vibrantes y sostenibles que mejoren la calidad de vida de quienes las habitan. Buscamos liderar el mercado y ser un motor de cambio positivo en la industria, brindando valor a nuestros clientes, empleados y socios comerciales.  ',
-    image: '/images/solution2.jpeg'
-  }
-] satisfies Item[]
-
-const ourValues = [
-  {
-    title: 'Profesionalismo',
-    description: 'Nuestro equipo está compuesto por expertos altamente capacitados y comprometidos con la excelencia en el servicio al cliente. Valoramos el conocimiento y la competencia en el sector.'
-  },
-  {
-    title: 'Confidencialidad',
-    description: 'Mantenemos la información de nuestros clientes y transacciones en estricta confidencialidad. Respetamos y protegemos su privacidad en todo momento.'
-  },
-  {
-    title: 'Excelencia operativa',
-    description: 'Buscamos la perfección en cada aspecto de nuestro negocio. A través de la eficiencia, la precisión y la mejora continua, ofrecemos un servicio de excelente calidad.'
-  },
-  {
-    title: 'Conocimiento especializado',
-    description: 'Valoramos la educación continua y la especialización en el mercado inmobiliario. Nuestros agentes y expertos están siempre actualizados con las últimas tendencias y regulaciones, lo que nos permite brindar asesoramiento eficaz a nuestros clientes.'
-  },
-  {
-    title: 'Cumplimiento normativo',
-    description: 'Operamos de acuerdo con las leyes y regulaciones aplicables en la industria inmobiliaria. Garantizamos que todas nuestras transacciones sean éticas, legales y cumplan con los estándares más altos de cumplimiento normativo.'
-  },
-  {
-    title: 'Red de contactos y alianzas sólidas',
-    description: 'Reconocemos la importancia de mantener una red de contactos sólida en la industria. Establecemos alianzas estratégicas con profesionales del sector, para brindar a nuestros clientes acceso a una amplia gama de recursos y servicios, lo que facilita y agiliza las transacciones comerciales.'
-  }
-] satisfies Item[]
+import { filosophy, ourValues } from '@/config/organization'
 
 export default function About () {
   return (
@@ -85,7 +45,7 @@ export default function About () {
           <div className='relative overflow-hidden'>
             <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
               <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
-                <h2 className='text-h2 pb-4 text-white'>
+                <h2 className='text-h2 pb-4 text-primary'>
                   Nuestra filosofía
                 </h2>
                 <p>
@@ -97,7 +57,7 @@ export default function About () {
             </div>
           </div>
           <div className='grid lg:grid-cols-2 gap-4'>
-            {aboutUs.map((item, key) => {
+            {filosophy.map((item, key) => {
               return (
                 <article className='space-y-12' key={key}>
                   <div className='group relative aspect-[4/5] sm:aspect-[3/2] lg:aspect-[3/3] xl:aspect-[3/2] w-full h-auto rounded-3xl overflow-hidden'>
@@ -135,7 +95,7 @@ export default function About () {
           <div className='relative overflow-hidden'>
             <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
               <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
-                <h2 className='text-h2 pb-4 text-white'>
+                <h2 className='text-h2 pb-4 text-primary'>
                   Nuestros principios
                 </h2>
                 <p>
@@ -151,15 +111,15 @@ export default function About () {
               return (
                 <article className='space-y-12' key={key}>
                   <div className='group relative aspect-[4/5] sm:aspect-[3/2] lg:aspect-[3/3] xl:aspect-[3/2] w-full h-auto rounded-3xl overflow-hidden'>
-                    <div className='absolute inset-0 py-sm px bg-primary flex items-center justify-center'>
+                    <div className='absolute inset-0 py-sm px  bg-gradient-to-t from-secondary vias-secondary/60 to-secondary/10 flex items-center justify-center'>
                       <div className='max-w-lg space-y-4 lg:space-y-6 h-fit w-fit'>
                         <h3>
-                          <Balancer className='text-h3 text-secondary'>
+                          <Balancer className='text-h3 text-white'>
                             {item.title}
                           </Balancer>
                         </h3>
                         <p>
-                          <Balancer className='text-p3 text-secondary'>
+                          <Balancer className='text-p3 text-white'>
                             {item.description}
                           </Balancer>
                         </p>
@@ -177,8 +137,8 @@ export default function About () {
           <div className='relative overflow-hidden'>
             <div className='bg-secondary relative z-20 px py-lg grid place-content-center rounded-3xl'>
               <div className='max-w-4xl h-fit space-y-4 lg:space-y-6'>
-                <h2 className='text-h2 pb-4 text-white'>
-                  <Balancer>
+                <h2>
+                  <Balancer className='text-h2 pb-4 text-primary'>
                     Innovación y éxito en el mundo de los bienes raíces
                   </Balancer>
                 </h2>
