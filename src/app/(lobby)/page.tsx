@@ -48,49 +48,6 @@ export default function IndexPage () {
             <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
               <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
                 <h2 className='text-h2 pb-4 text-primary'>
-                  Nuestros beneficios
-                </h2>
-                <p>
-                  <Balancer className='text-p2 text-white'>
-                    Nos apasiona transformar propiedades en activos exitosos. Con IPR8, no solo obtienes resultados excepcionales,
-                    sino que también obtienes un socio de confianza que comparte tu visión de éxito en el mercado inmobiliari
-                  </Balancer>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className='grid lg:grid-cols-2 gap-4'>
-            {benefist.map((item, key) => {
-              return (
-                <article className='space-y-12' key={key}>
-                  <div className='group relative aspect-[4/5] sm:aspect-[3/2] lg:aspect-[3/3] xl:aspect-[3/2] w-full h-auto rounded-3xl overflow-hidden'>
-                    <div className='absolute inset-0 py-sm px  bg-gradient-to-t from-secondary vias-secondary/60 to-secondary/10 flex items-center justify-center'>
-                      <div className='max-w-lg space-y-4 lg:space-y-6 h-fit w-fit'>
-                        <h3>
-                          <Balancer className='text-h3 text-white'>
-                            {item.title}
-                          </Balancer>
-                        </h3>
-                        <p>
-                          <Balancer className='text-p3 text-white'>
-                            {item.description}
-                          </Balancer>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              )
-            })}
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className='container py-4 px space-y-4'>
-          <div className='relative overflow-hidden'>
-            <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
-              <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
-                <h2 className='text-h2 pb-4 text-primary'>
                   Nuestras soluciones
                 </h2>
                 <p>
@@ -147,21 +104,59 @@ export default function IndexPage () {
         </div>
       </section>
       <section>
-        <div className='container pb-4 px space-y-4'>
+        <div className='container py-4 px space-y-4'>
           <div className='relative overflow-hidden'>
             <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
               <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
                 <h2 className='text-h2 pb-4 text-primary'>
-                  Acerca de nosotros
+                  Nuestros beneficios
                 </h2>
                 <p>
                   <Balancer className='text-p2 text-white'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat asperiores atque velit, distinctio ex, veniam enim facere inventore rerum iste dolorem, magnam nemo facilis vero ratione vel repellat odio quod.
+                    Nos apasiona transformar propiedades en activos exitosos. Con IPR8, no solo obtienes resultados excepcionales,
+                    sino que también obtienes un socio de confianza que comparte tu visión de éxito en el mercado inmobiliari
                   </Balancer>
                 </p>
+              </div>
+            </div>
+          </div>
+          <div className='grid lg:grid-cols-2 gap-4'>
+            {benefist.map((item, key) => {
+              return (
+                <article className='space-y-12' key={key}>
+                  <div className='group relative aspect-[4/5] sm:aspect-[3/2] lg:aspect-[3/3] xl:aspect-[3/2] w-full h-auto rounded-3xl overflow-hidden'>
+                    <div className='absolute inset-0 py-sm px  bg-gradient-to-t from-secondary vias-secondary/60 to-secondary/10 flex items-center justify-center'>
+                      <div className='max-w-lg space-y-4 lg:space-y-6 h-fit w-fit'>
+                        <h3>
+                          <Balancer className='text-h3 text-white'>
+                            {item.title}
+                          </Balancer>
+                        </h3>
+                        <p>
+                          <Balancer className='text-p3 text-white'>
+                            {item.description}
+                          </Balancer>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+      <div>
+        <div className='container pb-4 px space-y-4'>
+          <div className='relative overflow-hidden'>
+            <div className='bg-secondary relative z-20 p-6 aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/2] xl:aspect-[3/1] grid place-content-center rounded-3xl'>
+              <div className='max-w-4xl h-fit space-y-4 lg:space-y-6 text-center'>
+                <div className='text-h2 pb-4 text-white'>
+                  Conoce más acerca de nosotros
+                </div>
                 <div>
                   <Button asChild size='lg'>
-                    <Link href='/contacto'>
+                    <Link href='/nosotros'>
                       Saber más
                     </Link>
                   </Button>
@@ -170,7 +165,7 @@ export default function IndexPage () {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   )
 }
