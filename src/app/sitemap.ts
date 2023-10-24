@@ -1,19 +1,14 @@
 import type { MetadataRoute } from 'next'
 import { siteConfig } from '@/config/site'
+import { absoluteUrl } from '@/lib/utils'
 
 export default function Sitemap () : MetadataRoute.Sitemap {
+  const mainNav = siteConfig.mainNav.map((navItem) => ({
+    url: absoluteUrl(navItem.href),
+    lastModified: new Date().toISOString()
+  }))
+
   return [
-    {
-      url: `${siteConfig.url}${siteConfig.mainNav[0]?.href}`,
-      lastModified: new Date()
-    },
-    {
-      url: `${siteConfig.url}${siteConfig.mainNav[1]?.href}`,
-      lastModified: new Date()
-    },
-    {
-      url: `${siteConfig.url}${siteConfig.mainNav[2]?.href}`,
-      lastModified: new Date()
-    }
+    ...mainNav
   ]
 }

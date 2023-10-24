@@ -4,10 +4,17 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { services } from '@/config/services'
 import { siteConfig } from '@/config/site'
+import { type Metadata } from 'next'
+
+export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
+  title: 'Constructora – Industrial, Comercial y Residencial',
+  description: 'Diversidad de proyectos a la medida de tus necesidades'
+}
 
 const realEstateServices = services[2]!
 
-export default function Home () {
+export default function ConstructoraPage () {
   return (
     <>
       <section className='overflow-hidden h-screen relative z-10 pt-[90px] sm:pt-28 px'>
@@ -25,7 +32,7 @@ export default function Home () {
             <div className='pt-3 md:pt-8'>
               <Button asChild size='lg'>
                 <Link href='/contacto'>
-                  Pongamonos en contácto
+                  Pongámonos en contacto
                 </Link>
               </Button>
             </div>

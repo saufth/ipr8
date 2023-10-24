@@ -1,9 +1,8 @@
 import SiteFooter from '@/components/layouts/SiteFooter'
 import SiteHeader from '@/components/layouts/SiteHeader'
+import React from 'react'
 
-import type { LayoutProps } from '@/types'
-
-export default async function LobbyLayout ({ children }: LayoutProps) {
+export default async function LobbyLayout ({ children }: React.PropsWithChildren) {
   return (
     <>
       <SiteHeader />

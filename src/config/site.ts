@@ -4,7 +4,7 @@ export const domain = 'ipr8.com'
 
 export const siteConfig = {
   name: 'IPR8',
-  description: 'Inmobiliaria. Desarrolladora. Constructora. Mantenimiento.',
+  description: 'Cimientos fuertes, oportunidades de crecimiento y propiedades memorables en un solo lugar.',
   url: `https://${domain}`,
   author: {
     name: 'saufth',

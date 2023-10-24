@@ -5,8 +5,15 @@ import Link from 'next/link'
 import Video from '@/components/Video'
 import { AnimatedText } from '@/components/AnimatedText'
 import { filosophy, ourValues } from '@/config/organization'
+import { type Metadata } from 'next'
 
-export default function About () {
+export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
+  title: 'Conócenos – Descubre la excelencia en cada proyecto con nosotros',
+  description: 'Comprometidos con ofrecer soluciones integrales para construir un futuro mejor'
+}
+
+export default function AboutPage () {
   return (
     <>
       <section className='overflow-hidden h-[125vh] relative z-10 pt-[90px] sm:pt-28 px'>
@@ -29,7 +36,7 @@ export default function About () {
             <div className='pt-3 md:pt-8'>
               <Button asChild size='lg'>
                 <Link href='/contacto'>
-                  Pongamonos en contácto
+                  Pongámonos en contacto
                 </Link>
               </Button>
             </div>

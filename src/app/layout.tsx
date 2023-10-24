@@ -2,25 +2,28 @@ import ThemeProvider from '@/components/layouts/ThemeProvider'
 import { cn } from '@/lib/utils'
 import { siteConfig } from '@/config/site'
 import { type Metadata } from 'next'
-import { type LayoutProps } from '@/types'
+import React from 'react'
 import { fontPrimary } from '@/lib/fonts'
 import './globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: {
     default: `${siteConfig.name} – ${siteConfig.description}`,
     template: `${siteConfig.name} – %s`
   },
   description: siteConfig.description,
   keywords: [
-    siteConfig.name,
-    siteConfig.description
+    'Ipr8',
+    'Inmobiliaria',
+    'Desarrlladora',
+    'Constructora',
+    'Mantenimiento'
   ],
   authors: siteConfig.author,
   creator: siteConfig.author.name,
   publisher: siteConfig.author.name,
   applicationName: siteConfig.name,
-  metadataBase: new URL(siteConfig.url),
   generator: 'Next.js 13',
   robots: 'index, follow',
   themeColor: [
@@ -37,7 +40,7 @@ export const metadata: Metadata = {
   }
 }
 
-export default function RootLayout ({ children }: LayoutProps) {
+export default function RootLayout ({ children }: React.PropsWithChildren) {
   return (
     <html lang='es' suppressHydrationWarning>
       <body className={cn(fontPrimary.variable, 'bg-muted font-primary min-h-screen antialiased !scroll-smooth')}>

@@ -4,10 +4,17 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { services } from '@/config/services'
 import { siteConfig } from '@/config/site'
+import { type Metadata } from 'next'
+
+export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
+  title: 'Desarrolladora – Planeación, diseño, financiamiento, construcción y gestión de proyectos inmobiliarios',
+  description: 'Ayudamos a maximizar el valor de las propiedades y optimizar las estrategias de comercialización'
+}
 
 const realEstateServices = services[1]!
 
-export default function Home () {
+export default function DesarrolladoraPage () {
   return (
     <>
       <section className='overflow-hidden h-screen relative z-10 pt-[90px] sm:pt-28 px'>
@@ -25,7 +32,7 @@ export default function Home () {
             <div className='pt-3 md:pt-8'>
               <Button asChild size='lg'>
                 <Link href='/contacto'>
-                  Pongamonos en contácto
+                  Pongámonos en contacto
                 </Link>
               </Button>
             </div>

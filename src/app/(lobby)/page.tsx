@@ -1,20 +1,19 @@
 import { AnimatedText } from '@/components/AnimatedText'
-import { Balancer } from 'react-wrap-balancer'
 import { Button } from '@/components/ui/Button'
+import Video from '@/components/Video'
+import { Balancer } from 'react-wrap-balancer'
 import Image from 'next/image'
 import Link from 'next/link'
-import Video from '@/components/Video'
+import { benefist } from '@/config/organization'
 import { services } from '@/config/services'
 import { siteConfig } from '@/config/site'
-import { benefist } from '@/config/organization'
 
-export default function Home () {
+export default function IndexPage () {
   return (
     <>
       <section className='overflow-hidden h-[125vh] relative z-10 pt-[90px] sm:pt-28 px'>
         <div className='container sm:px flex relative z-20'>
           <div className='max-w-2xl lg:max-w-3xl h-fit space-y-2'>
-            <h1 className='sr-only'>{siteConfig.description}</h1>
             <AnimatedText
               texts={[
                 'Inmobiliaria',
@@ -26,13 +25,13 @@ export default function Home () {
             />
             <p>
               <Balancer className='text-p1 text-white'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, sequi itaque.
+                {siteConfig.description}
               </Balancer>
             </p>
             <div className='pt-3 md:pt-8'>
               <Button asChild size='lg'>
                 <Link href='/contacto'>
-                  Pongamonos en contácto
+                  Pongámonos en contacto
                 </Link>
               </Button>
             </div>
