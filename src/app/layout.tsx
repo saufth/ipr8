@@ -1,5 +1,4 @@
 import ThemeProvider from '@/components/layouts/ThemeProvider'
-import NextUIProvider from '@/components/layouts/NextUIProvider'
 import { cn } from '@/lib/utils'
 import { siteConfig } from '@/config/site'
 import { type Metadata } from 'next'
@@ -43,11 +42,9 @@ export default function RootLayout ({ children }: LayoutProps) {
     <html lang='es' suppressHydrationWarning>
       <body className={cn(fontPrimary.variable, 'bg-muted font-primary min-h-screen antialiased !scroll-smooth')}>
         <ThemeProvider attribute='class' defaultTheme='dark' forcedTheme='dark'>
-          <NextUIProvider>
-            <div className='z-10'>
-              {children}
-            </div>
-          </NextUIProvider>
+          <div className='z-10'>
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>
