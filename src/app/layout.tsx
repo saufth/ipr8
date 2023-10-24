@@ -14,11 +14,15 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   keywords: [
-    'Ipr8',
+    'Inmobiliaria Ipr8',
     'Inmobiliaria',
     'Desarrlladora',
     'Constructora',
-    'Mantenimiento'
+    'Mantenimiento',
+    'Desarrollos integrales',
+    'Servicios industriales',
+    'Servicios residenciales',
+    'Servicios comerciales'
   ],
   authors: siteConfig.author,
   creator: siteConfig.author.name,
@@ -27,8 +31,8 @@ export const metadata: Metadata = {
   generator: 'Next.js 13',
   robots: 'index, follow',
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' }
+    { media: '(prefers-color-scheme: light)', color: '#151515' },
+    { media: '(prefers-color-scheme: dark)', color: '#151515' }
   ],
   openGraph: {
     type: 'website',
