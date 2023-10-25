@@ -3,7 +3,6 @@ import { Button } from '@/components/ui/Button'
 import Image from 'next/image'
 import Link from 'next/link'
 import { services } from '@/config/services'
-import { siteConfig } from '@/config/site'
 import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -20,7 +19,6 @@ export default function InmobiliariaPage () {
       <section className='overflow-hidden h-screen relative z-10 pt-[90px] sm:pt-28 px'>
         <div className='container sm:px flex relative z-20'>
           <div className='max-w-2xl lg:max-w-3xl h-fit space-y-2'>
-            <h1 className='sr-only'>{siteConfig.description}</h1>
             <h1 className='text-h1 border-b w-fit border-white dark:border-white leading-none pb-4 text-transparent bg-clip-text bg-gradient-to-t from-[#dddddd] to-white dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-t dark:from-[#dddddd] dark:to-white'>
               {realEstateServices.title}
             </h1>
