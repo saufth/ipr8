@@ -8,7 +8,7 @@ export const filosophy = [
   },
   {
     title: 'Nuestra visión',
-    description: 'Aspiramos a crear comunidades vibrantes y sostenibles que mejoren la calidad de vida de quienes las habitan. Buscamos liderar el mercado y ser un motor de cambio positivo en la industria, brindando valor a nuestros clientes, empleados y socios comerciales.  ',
+    description: 'Aspiramos a crear comunidades vibrantes y sostenibles que mejoren la calidad de vida de quienes las habitan. Buscamos liderar el mercado y ser un motor de cambio positivo en la industria, brindando valor a nuestros clientes, empleados y socios comerciales.',
     image: '/images/category2.jpeg'
   }
 ] satisfies Item[]
