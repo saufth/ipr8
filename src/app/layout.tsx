@@ -5,6 +5,7 @@ import { type Metadata } from 'next'
 import React from 'react'
 import { fontPrimary } from '@/lib/fonts'
 import './globals.css'
+import GoogleSearchScript from '@/components/layouts/GoogleSearchScript'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -53,6 +54,7 @@ export default function RootLayout ({ children }: React.PropsWithChildren) {
             {children}
           </div>
         </ThemeProvider>
+        <GoogleSearchScript />
       </body>
     </html>
   )

@@ -14,6 +14,6 @@ export function slugify (str: string) {
     .replace(/--+/g, '-')
 }
 
-export function absoluteUrl (path: string) {
+export function absoluteUrl (path: string = '/') {
   return `${process.env.NEXT_PUBLIC_APP_URL}${path}`
 }
