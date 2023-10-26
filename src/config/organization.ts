@@ -55,6 +55,6 @@ export const benefist = [
   },
   {
     title: 'Soluciones personalizadas según sus necesidades',
-    description: 'Esta es nuestra política interna de Satisfacción absoluta, ya todo el proceso es 100% personalizado y a la medida de las necesidades de nuestros clientes.'
+    description: 'Esta es nuestra política interna de Satisfacción absoluta, ya todo el proceso es 100% personalizado y a la medida de las necesidades de nuestros clientes.'
   }
 ] satisfies Item[]
